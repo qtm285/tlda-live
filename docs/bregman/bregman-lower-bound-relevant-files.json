@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-06-14T22:52:27.476Z",
+  "source_dir": "/Users/skip/work/bregman-lower-bound",
+  "files": [
+    "/Users/skip/work/bregman-lower-bound/body.tex",
+    "/Users/skip/work/bregman-lower-bound/bregman-lower-bound.tex",
+    "/Users/skip/work/bregman-lower-bound/bregman-macros.tex",
+    "/Users/skip/work/bregman-lower-bound/figures/bregman-divergence-comparison.bb",
+    "/Users/skip/work/bregman-lower-bound/figures/bregman-divergence-comparison.pdf",
+    "/Users/skip/work/bregman-lower-bound/figures/bregman-divergence-comparison.svg",
+    "/Users/skip/work/bregman-lower-bound/scratch/plots/viz-density.png",
+    "/Users/skip/work/bregman-lower-bound/scratch/plots/viz-fan-E.png",
+    "/Users/skip/work/bregman-lower-bound/scratch/plots/viz-fan-Q.png",
+    "/Users/skip/work/tlda/server/projects/bregman/source/body.tex",
+    "/Users/skip/work/tlda/server/projects/bregman/source/bregman-lower-bound.tex",
+    "/Users/skip/work/tlda/server/projects/bregman/source/bregman-macros.tex",
+    "/Users/skip/work/tlda/server/projects/bregman/source/figures/bregman-divergence-comparison.bb",
+    "/Users/skip/work/tlda/server/projects/bregman/source/figures/bregman-divergence-comparison.pdf",
+    "/Users/skip/work/tlda/server/projects/bregman/source/figures/bregman-divergence-comparison.svg",
+    "/Users/skip/work/tlda/server/projects/bregman/source/scratch/plots/viz-density.png",
+    "/Users/skip/work/tlda/server/projects/bregman/source/scratch/plots/viz-fan-E.png",
+    "/Users/skip/work/tlda/server/projects/bregman/source/scratch/plots/viz-fan-Q.png"
+  ]
+}

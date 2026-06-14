@@ -1,0 +1,2474 @@
+{
+  "meta": {
+    "texFile": "/Users/skip/work/tlda/server/projects/balancing-act/source/main.tex",
+    "generated": "2026-05-26T10:31:56.546Z"
+  },
+  "pairs": [
+    {
+      "id": "proposition:clt-general",
+      "type": "proposition",
+      "title": "Proposition 7.1",
+      "statementLines": [
+        1551,
+        1565
+      ],
+      "statementRegion": {
+        "page": 23,
+        "yTop": 305.1,
+        "yBottom": 536.6
+      },
+      "statementRegions": [
+        {
+          "page": 23,
+          "yTop": 305.1,
+          "yBottom": 536.6
+        }
+      ],
+      "proofLines": [
+        1878,
+        1924
+      ],
+      "proofRegions": [
+        {
+          "page": 32,
+          "yTop": -35,
+          "yBottom": -5
+        },
+        {
+          "page": 33,
+          "yTop": -35,
+          "yBottom": 617.7
+        },
+        {
+          "page": 34,
+          "yTop": 0,
+          "yBottom": 267.5
+        }
+      ],
+      "samePage": false,
+      "dependencies": []
+    },
+    {
+      "id": "prop:efficiency-bound",
+      "type": "proposition",
+      "title": "Proposition 4.1",
+      "statementLines": [
+        837,
+        840
+      ],
+      "statementRegion": {
+        "page": 8,
+        "yTop": 391.6,
+        "yBottom": 433.6
+      },
+      "statementRegions": [
+        {
+          "page": 8,
+          "yTop": 391.6,
+          "yBottom": 433.6
+        }
+      ],
+      "proofLines": [
+        1929,
+        1935
+      ],
+      "proofRegions": [
+        {
+          "page": 34,
+          "yTop": 284.9,
+          "yBottom": 406
+        }
+      ],
+      "samePage": false,
+      "dependencies": [
+        {
+          "label": "a:regular-overlap",
+          "displayLabel": "Assumption 2$'$",
+          "type": "assumption",
+          "shortType": "asn",
+          "region": {
+            "page": 8,
+            "yTop": 112.6,
+            "yBottom": 142.6
+          },
+          "pageDist": 26
+        }
+      ]
+    },
+    {
+      "id": "prop:efficiency",
+      "type": "proposition",
+      "title": "Proposition 4.2",
+      "statementLines": [
+        866,
+        873
+      ],
+      "statementRegion": {
+        "page": 9,
+        "yTop": 216.8,
+        "yBottom": 258.8
+      },
+      "statementRegions": [
+        {
+          "page": 9,
+          "yTop": 216.8,
+          "yBottom": 258.8
+        }
+      ],
+      "proofLines": [
+        1937,
+        1960
+      ],
+      "proofRegions": [
+        {
+          "page": 34,
+          "yTop": -35,
+          "yBottom": 658.4
+        },
+        {
+          "page": 35,
+          "yTop": 0,
+          "yBottom": 93.4
+        }
+      ],
+      "samePage": false,
+      "dependencies": [
+        {
+          "label": "a:regular-overlap",
+          "displayLabel": "Assumption 2$'$",
+          "type": "assumption",
+          "shortType": "asn",
+          "region": {
+            "page": 8,
+            "yTop": 112.6,
+            "yBottom": 142.6
+          },
+          "pageDist": 26
+        }
+      ]
+    },
+    {
+      "id": "cor:integer-sbw",
+      "type": "corollary",
+      "title": "Corollary 8.5",
+      "statementLines": [
+        1744,
+        1747
+      ],
+      "statementRegion": {
+        "page": 27,
+        "yTop": -35,
+        "yBottom": -5
+      },
+      "statementRegions": [
+        {
+          "page": 27,
+          "yTop": -35,
+          "yBottom": -5
+        },
+        {
+          "page": 28,
+          "yTop": 0,
+          "yBottom": 30
+        }
+      ],
+      "proofLines": [
+        2106,
+        2117
+      ],
+      "proofRegions": [
+        {
+          "page": 37,
+          "yTop": 394,
+          "yBottom": 554.4
+        }
+      ],
+      "samePage": false,
+      "dependencies": [
+        {
+          "label": "def:nonparametric",
+          "displayLabel": "Definition 1",
+          "type": "definition",
+          "shortType": "def",
+          "region": {
+            "page": 8,
+            "yTop": 141.2,
+            "yBottom": 247.7
+          },
+          "pageDist": 29
+        },
+        {
+          "label": "eq:matching-cost",
+          "displayLabel": "(65)",
+          "type": "equation",
+          "shortType": "eq",
+          "region": {
+            "page": 26,
+            "yTop": 476.2,
+            "yBottom": 558.9
+          },
+          "pageDist": 11
+        },
+        {
+          "label": "eq:integer-sbw",
+          "displayLabel": "(68)",
+          "type": "equation",
+          "shortType": "eq",
+          "region": {
+            "page": 27,
+            "yTop": 460.3,
+            "yBottom": 564.5
+          },
+          "pageDist": 10
+        },
+        {
+          "label": "eq:asymptotic-linearity-rounded",
+          "displayLabel": "(66)",
+          "type": "equation",
+          "shortType": "eq",
+          "region": {
+            "page": 27,
+            "yTop": 125.1,
+            "yBottom": 222.5
+          },
+          "pageDist": 10
+        },
+        {
+          "label": "eq:asymptotic-normality-rounded",
+          "displayLabel": "(67)",
+          "type": "equation",
+          "shortType": "eq",
+          "region": {
+            "page": 27,
+            "yTop": 219.9,
+            "yBottom": 276
+          },
+          "pageDist": 10
+        }
+      ]
+    },
+    {
+      "id": "lemm:bdd_ent_class",
+      "type": "lemma",
+      "title": "Lemma E.1",
+      "statementLines": [
+        2122,
+        2139
+      ],
+      "statementRegion": {
+        "page": 37,
+        "yTop": -35,
+        "yBottom": 666.4
+      },
+      "statementRegions": [
+        {
+          "page": 37,
+          "yTop": -35,
+          "yBottom": 666.4
+        },
+        {
+          "page": 38,
+          "yTop": 0,
+          "yBottom": 158.7
+        }
+      ],
+      "proofLines": [
+        2161,
+        2378
+      ],
+      "proofRegions": [
+        {
+          "page": 38,
+          "yTop": -35,
+          "yBottom": 650.9
+        },
+        {
+          "page": 39,
+          "yTop": -35,
+          "yBottom": 530.6
+        },
+        {
+          "page": 40,
+          "yTop": -35,
+          "yBottom": 596.6
+        },
+        {
+          "page": 41,
+          "yTop": -35,
+          "yBottom": 657.3
+        },
+        {
+          "page": 42,
+          "yTop": 31.700000000000003,
+          "yBottom": 647.5
+        }
+      ],
+      "samePage": false,
+      "dependencies": []
+    },
+    {
+      "id": "cor:hdisc-negligible",
+      "type": "corollary",
+      "title": "Corollary E.2",
+      "statementLines": [
+        2141,
+        2145
+      ],
+      "statementRegion": {
+        "page": 38,
+        "yTop": 170.6,
+        "yBottom": 230.4
+      },
+      "statementRegions": [
+        {
+          "page": 38,
+          "yTop": 170.6,
+          "yBottom": 230.4
+        }
+      ],
+      "proofLines": [
+        2381,
+        2420
+      ],
+      "proofRegions": [
+        {
+          "page": 42,
+          "yTop": -35,
+          "yBottom": 667.5
+        },
+        {
+          "page": 43,
+          "yTop": 39.1,
+          "yBottom": 550.4
+        }
+      ],
+      "samePage": false,
+      "dependencies": []
+    },
+    {
+      "id": "lem:empirical-and-population-norm-equivalence",
+      "type": "lemma",
+      "title": "Lemma E.3",
+      "statementLines": [
+        2154,
+        2159
+      ],
+      "statementRegion": {
+        "page": 38,
+        "yTop": 284.1,
+        "yBottom": 338.1
+      },
+      "statementRegions": [
+        {
+          "page": 38,
+          "yTop": 284.1,
+          "yBottom": 338.1
+        }
+      ],
+      "proofLines": [
+        2423,
+        2447
+      ],
+      "proofRegions": [
+        {
+          "page": 43,
+          "yTop": -35,
+          "yBottom": 650.4
+        },
+        {
+          "page": 44,
+          "yTop": 34.1,
+          "yBottom": 189.9
+        }
+      ],
+      "samePage": false,
+      "dependencies": []
+    },
+    {
+      "id": "lemm:cross-term",
+      "type": "lemma",
+      "title": "Lemma E.4",
+      "statementLines": [
+        2475,
+        2481
+      ],
+      "statementRegion": {
+        "page": 44,
+        "yTop": 458.5,
+        "yBottom": 520.5
+      },
+      "statementRegions": [
+        {
+          "page": 44,
+          "yTop": 458.5,
+          "yBottom": 520.5
+        }
+      ],
+      "proofLines": [
+        2483,
+        2490
+      ],
+      "proofRegions": [
+        {
+          "page": 44,
+          "yTop": 519.2,
+          "yBottom": 611.9
+        }
+      ],
+      "samePage": true,
+      "dependencies": []
+    },
+    {
+      "id": "prop:matching-cost",
+      "type": "proposition",
+      "title": "Proposition 8.2",
+      "statementLines": [
+        1683,
+        1686
+      ],
+      "statementRegion": {
+        "page": 26,
+        "yTop": 591.6,
+        "yBottom": 633.6
+      },
+      "statementRegions": [
+        {
+          "page": 26,
+          "yTop": 591.6,
+          "yBottom": 633.6
+        }
+      ],
+      "proofLines": [
+        2519,
+        2530
+      ],
+      "proofRegions": [
+        {
+          "page": 45,
+          "yTop": 242.8,
+          "yBottom": 424
+        }
+      ],
+      "samePage": false,
+      "dependencies": [
+        {
+          "label": "eq:matching-cost",
+          "displayLabel": "(65)",
+          "type": "equation",
+          "shortType": "eq",
+          "region": {
+            "page": 26,
+            "yTop": 476.2,
+            "yBottom": 558.9
+          },
+          "pageDist": 19
+        }
+      ]
+    },
+    {
+      "id": "lem:rounding-error-estimated",
+      "type": "lemma",
+      "title": "Lemma E.5",
+      "statementLines": [
+        2540,
+        2543
+      ],
+      "statementRegion": {
+        "page": 45,
+        "yTop": 596.5,
+        "yBottom": 626.5
+      },
+      "statementRegions": [
+        {
+          "page": 45,
+          "yTop": 596.5,
+          "yBottom": 626.5
+        }
+      ],
+      "proofLines": [
+        2545,
+        2600
+      ],
+      "proofRegions": [
+        {
+          "page": 45,
+          "yTop": -35,
+          "yBottom": 667.9
+        },
+        {
+          "page": 46,
+          "yTop": -35,
+          "yBottom": 619.7
+        },
+        {
+          "page": 47,
+          "yTop": 0,
+          "yBottom": 30
+        }
+      ],
+      "samePage": false,
+      "dependencies": []
+    },
+    {
+      "id": "prop:matching-achievable",
+      "type": "proposition",
+      "title": "Proposition 8.3",
+      "statementLines": [
+        1688,
+        1694
+      ],
+      "statementRegion": {
+        "page": 26,
+        "yTop": -35,
+        "yBottom": -5
+      },
+      "statementRegions": [
+        {
+          "page": 26,
+          "yTop": -35,
+          "yBottom": -5
+        },
+        {
+          "page": 27,
+          "yTop": 0,
+          "yBottom": 68.7
+        }
+      ],
+      "proofLines": [
+        2627,
+        2691
+      ],
+      "proofRegions": [
+        {
+          "page": 47,
+          "yTop": -35,
+          "yBottom": 662.6
+        },
+        {
+          "page": 48,
+          "yTop": 0,
+          "yBottom": 615.2
+        }
+      ],
+      "samePage": false,
+      "dependencies": [
+        {
+          "label": "eq:round",
+          "displayLabel": "(63)",
+          "type": "equation",
+          "shortType": "eq",
+          "region": {
+            "page": 25,
+            "yTop": 345.9,
+            "yBottom": 478.4
+          },
+          "pageDist": 22
+        },
+        {
+          "label": "prop:matching-cost",
+          "displayLabel": "Proposition 8.2",
+          "type": "proposition",
+          "shortType": "prop",
+          "region": {
+            "page": 26,
+            "yTop": 591.6,
+            "yBottom": 633.6
+          },
+          "pageDist": 21
+        },
+        {
+          "label": "eq:matching-cost",
+          "displayLabel": "(65)",
+          "type": "equation",
+          "shortType": "eq",
+          "region": {
+            "page": 26,
+            "yTop": 476.2,
+            "yBottom": 558.9
+          },
+          "pageDist": 21
+        }
+      ]
+    },
+    {
+      "id": "lem:minimax-donsker",
+      "type": "lemma",
+      "title": "Lemma E.6",
+      "statementLines": [
+        2693,
+        2696
+      ],
+      "statementRegion": {
+        "page": 48,
+        "yTop": -35,
+        "yBottom": -5
+      },
+      "statementRegions": [
+        {
+          "page": 48,
+          "yTop": -35,
+          "yBottom": -5
+        },
+        {
+          "page": 49,
+          "yTop": 0,
+          "yBottom": 30
+        }
+      ],
+      "proofLines": [
+        2698,
+        2700
+      ],
+      "proofRegions": [
+        {
+          "page": 49,
+          "yTop": 41.2,
+          "yBottom": 71.2
+        }
+      ],
+      "samePage": false,
+      "dependencies": []
+    },
+    {
+      "id": "cor:integer-sbw",
+      "type": "corollary",
+      "title": "Corollary 8.5",
+      "statementLines": [
+        1744,
+        1747
+      ],
+      "statementRegion": {
+        "page": 27,
+        "yTop": -35,
+        "yBottom": -5
+      },
+      "statementRegions": [
+        {
+          "page": 27,
+          "yTop": -35,
+          "yBottom": -5
+        },
+        {
+          "page": 28,
+          "yTop": 0,
+          "yBottom": 30
+        }
+      ],
+      "proofLines": [
+        2716,
+        2734
+      ],
+      "proofRegions": [
+        {
+          "page": 49,
+          "yTop": 261.1,
+          "yBottom": 549.8
+        }
+      ],
+      "samePage": false,
+      "dependencies": [
+        {
+          "label": "def:nonparametric",
+          "displayLabel": "Definition 1",
+          "type": "definition",
+          "shortType": "def",
+          "region": {
+            "page": 8,
+            "yTop": 141.2,
+            "yBottom": 247.7
+          },
+          "pageDist": 41
+        },
+        {
+          "label": "eq:matching-cost",
+          "displayLabel": "(65)",
+          "type": "equation",
+          "shortType": "eq",
+          "region": {
+            "page": 26,
+            "yTop": 476.2,
+            "yBottom": 558.9
+          },
+          "pageDist": 23
+        },
+        {
+          "label": "eq:integer-sbw",
+          "displayLabel": "(68)",
+          "type": "equation",
+          "shortType": "eq",
+          "region": {
+            "page": 27,
+            "yTop": 460.3,
+            "yBottom": 564.5
+          },
+          "pageDist": 22
+        },
+        {
+          "label": "eq:asymptotic-linearity-rounded",
+          "displayLabel": "(66)",
+          "type": "equation",
+          "shortType": "eq",
+          "region": {
+            "page": 27,
+            "yTop": 125.1,
+            "yBottom": 222.5
+          },
+          "pageDist": 22
+        },
+        {
+          "label": "eq:asymptotic-normality-rounded",
+          "displayLabel": "(67)",
+          "type": "equation",
+          "shortType": "eq",
+          "region": {
+            "page": 27,
+            "yTop": 219.9,
+            "yBottom": 276
+          },
+          "pageDist": 22
+        }
+      ]
+    },
+    {
+      "id": "cor:rounding",
+      "type": "corollary",
+      "title": "Corollary 8.4",
+      "statementLines": [
+        1698,
+        1713
+      ],
+      "statementRegion": {
+        "page": 27,
+        "yTop": 113.1,
+        "yBottom": 276
+      },
+      "statementRegions": [
+        {
+          "page": 27,
+          "yTop": 113.1,
+          "yBottom": 276
+        }
+      ],
+      "proofLines": [
+        2750,
+        2761
+      ],
+      "proofRegions": [
+        {
+          "page": 50,
+          "yTop": 76.8,
+          "yBottom": 300.2
+        }
+      ],
+      "samePage": false,
+      "dependencies": [
+        {
+          "label": "eq:round",
+          "displayLabel": "(63)",
+          "type": "equation",
+          "shortType": "eq",
+          "region": {
+            "page": 25,
+            "yTop": 345.9,
+            "yBottom": 478.4
+          },
+          "pageDist": 25
+        }
+      ]
+    },
+    {
+      "id": "prop:matching-efficiency",
+      "type": "proposition",
+      "title": "Proposition E.7",
+      "statementLines": [
+        2787,
+        2798
+      ],
+      "statementRegion": {
+        "page": 51,
+        "yTop": 106,
+        "yBottom": 249.6
+      },
+      "statementRegions": [
+        {
+          "page": 51,
+          "yTop": 106,
+          "yBottom": 249.6
+        }
+      ],
+      "proofLines": [
+        2800,
+        2816
+      ],
+      "proofRegions": [
+        {
+          "page": 51,
+          "yTop": 240.7,
+          "yBottom": 474.4
+        }
+      ],
+      "samePage": true,
+      "dependencies": [
+        {
+          "label": "cor:integer-sbw",
+          "displayLabel": "Corollary 8.5",
+          "type": "corollary",
+          "shortType": "cor",
+          "region": {
+            "page": 27,
+            "yTop": -35,
+            "yBottom": -5
+          },
+          "pageDist": 23
+        }
+      ]
+    }
+  ],
+  "lineRefs": {
+    "395": [
+      "sec:misfit_toys"
+    ],
+    "400": [
+      "sec:dual"
+    ],
+    "440": [
+      "a:ignore",
+      "a:overlap"
+    ],
+    "449": [
+      "a:ignore",
+      "a:ignore"
+    ],
+    "462": [
+      "a:ignore",
+      "a:overlap"
+    ],
+    "474": [
+      "eq_mipw-balance"
+    ],
+    "475": [
+      "eq_mipw-balance"
+    ],
+    "478": [
+      "eq_mipw-identity"
+    ],
+    "506": [
+      "eq:weights_error"
+    ],
+    "525": [
+      "eq_mipw-balance"
+    ],
+    "528": [
+      "eq_mipw-balance"
+    ],
+    "530": [
+      "eq_mipw-sample-balance"
+    ],
+    "557": [
+      "eq:weights_error"
+    ],
+    "568": [
+      "eq:aipw2-imputation"
+    ],
+    "572": [
+      "eq:aipw2-imputation"
+    ],
+    "585": [
+      "eq_mipw-balance"
+    ],
+    "588": [
+      "eq_mipw-sample-balance"
+    ],
+    "598": [
+      "eq_mipw-sample-balance"
+    ],
+    "603": [
+      "eq_mipw-sample-balance"
+    ],
+    "617": [
+      "eq_mipw-sample-balance"
+    ],
+    "620": [
+      "eq_mipw-balance"
+    ],
+    "621": [
+      "eq_mipw-balance"
+    ],
+    "626": [
+      "eq_mipw-sample-balance"
+    ],
+    "648": [
+      "eq:bias"
+    ],
+    "657": [
+      "eq_balancing-weights"
+    ],
+    "677": [
+      "eq_balancing-weights-general"
+    ],
+    "683": [
+      "eq_balancing-weights"
+    ],
+    "687": [
+      "eq_balancing-weights-general"
+    ],
+    "698": [
+      "eq_balancing-weights",
+      "eq:dual_l2_penalized_regression",
+      "eq_balancing-weights-general"
+    ],
+    "705": [
+      "eq:dual_l2_penalized_regression"
+    ],
+    "712": [
+      "eq:sbw"
+    ],
+    "719": [
+      "eq:sbw"
+    ],
+    "759": [
+      "eq:aipw2"
+    ],
+    "761": [
+      "proposition:clt"
+    ],
+    "762": [
+      "proposition:optimality"
+    ],
+    "775": [
+      "eq:weights_error_aug"
+    ],
+    "782": [
+      "eq:weights_error_aug"
+    ],
+    "796": [
+      "eq:weights_error_aug"
+    ],
+    "801": [
+      "proposition:clt",
+      "a:regular-overlap"
+    ],
+    "835": [
+      "a:regular-overlap"
+    ],
+    "858": [
+      "prop:efficiency-bound"
+    ],
+    "864": [
+      "a:regular-overlap"
+    ],
+    "879": [
+      "sec:regularity"
+    ],
+    "940": [
+      "eq:imbalance_margin_cat"
+    ],
+    "972": [
+      "eq:bias_linear"
+    ],
+    "988": [
+      "eq:imbalance_interact"
+    ],
+    "990": [
+      "eq:imbalance_interact"
+    ],
+    "1000": [
+      "eq:imbalance_interact"
+    ],
+    "1016": [
+      "eq:imbalance_interact"
+    ],
+    "1026": [
+      "sec_balancing_marginally"
+    ],
+    "1042": [
+      "eq:bias_interactions"
+    ],
+    "1058": [
+      "eq:binary-rkhs"
+    ],
+    "1074": [
+      "sec_balancing_marginally"
+    ],
+    "1081": [
+      "eq:imbalance_phi_infinite"
+    ],
+    "1159": [
+      "eq_balancing-weights-general"
+    ],
+    "1164": [
+      "eq_balancing-weights"
+    ],
+    "1168": [
+      "eq_balancing-weights-comparison"
+    ],
+    "1182": [
+      "eq_balancing-weights"
+    ],
+    "1190": [
+      "eq_mipw-balance"
+    ],
+    "1258": [
+      "eq:ipw_gen_imbalance_symmetrized",
+      "eq:ipw_gen_imbalance_symmetrized"
+    ],
+    "1274": [
+      "eq:least-squares-fixed-point"
+    ],
+    "1280": [
+      "cond:small_imbalance"
+    ],
+    "1296": [
+      "cond:small_imbalance"
+    ],
+    "1300": [
+      "a:regular-overlap"
+    ],
+    "1314": [
+      "a:regular-overlap"
+    ],
+    "1321": [
+      "eq_balancing-weights"
+    ],
+    "1329": [
+      "eq:aug_bias"
+    ],
+    "1334": [
+      "cond:small_imbalance"
+    ],
+    "1338": [
+      "eq:weights_error_aug"
+    ],
+    "1351": [
+      "eq:aug_bias"
+    ],
+    "1356": [
+      "cond:small_imbalance"
+    ],
+    "1386": [
+      "eq_balancing-weights"
+    ],
+    "1406": [
+      "eq_balancing-weights",
+      "eq:donoho-liu-bias"
+    ],
+    "1420": [
+      "eq:fixed-point"
+    ],
+    "1438": [
+      "eq_balancing-weights",
+      "eq:least-squares-fixed-point",
+      "eq_balancing-weights"
+    ],
+    "1446": [
+      "eq_balancing-weights-comparison"
+    ],
+    "1454": [
+      "prop:bias-balance"
+    ],
+    "1460": [
+      "eq:least-squares-fixed-point"
+    ],
+    "1469": [
+      "prop:bias-balance"
+    ],
+    "1475": [
+      "eq:weights_error_aug"
+    ],
+    "1488": [
+      "app:regression-orthogonality"
+    ],
+    "1513": [
+      "eq_mipw-balance"
+    ],
+    "1525": [
+      "eq_general_ipw",
+      "eq_balancing-weights-general"
+    ],
+    "1533": [
+      "eq_general_ipw",
+      "eq_balancing-weights-general"
+    ],
+    "1546": [
+      "eq_balancing-weights",
+      "proposition:clt"
+    ],
+    "1562": [
+      "eq:amle-general"
+    ],
+    "1564": [
+      "eq:targeted-ate"
+    ],
+    "1592": [
+      "prop:rounding",
+      "app:rounding"
+    ],
+    "1606": [
+      "eq_balancing-weights"
+    ],
+    "1644": [
+      "proposition:clt"
+    ],
+    "1651": [
+      "eq:round"
+    ],
+    "1655": [
+      "eq:round"
+    ],
+    "1666": [
+      "prop:rounding"
+    ],
+    "1670": [
+      "app:rounding"
+    ],
+    "1681": [
+      "eq:matching-cost"
+    ],
+    "1686": [
+      "prop:matching-cost",
+      "eq:round",
+      "eq:matching-cost"
+    ],
+    "1692": [
+      "prop:rounding",
+      "proposition:clt"
+    ],
+    "1698": [
+      "eq:round"
+    ],
+    "1715": [
+      "eq:bernoulli-rounding-variance",
+      "prop:matching-efficiency"
+    ],
+    "1718": [
+      "cor:rounding"
+    ],
+    "1720": [
+      "cor:rounding"
+    ],
+    "1738": [
+      "prop:rounding",
+      "eq:integer-sbw",
+      "prop:bias-balance",
+      "cor:rounding"
+    ],
+    "1742": [
+      "def:nonparametric",
+      "eq:integer-sbw",
+      "eq:asymptotic-linearity-rounded",
+      "eq:asymptotic-normality-rounded",
+      "eq:matching-cost"
+    ],
+    "1748": [
+      "eq:integer-sbw"
+    ],
+    "1755": [
+      "cor:integer-sbw"
+    ],
+    "1828": [
+      "eq:donoho-liu-bias"
+    ],
+    "1843": [
+      "proposition:clt-general"
+    ],
+    "1857": [
+      "eq:weighted-l2-consistency"
+    ],
+    "1859": [
+      "proposition:clt"
+    ],
+    "1874": [
+      "proposition:clt-general",
+      "proposition:clt"
+    ],
+    "1875": [
+      "proposition:clt",
+      "proposition:clt-general",
+      "proposition:clt-general"
+    ],
+    "1911": [
+      "eq:weighted-l2-consistency"
+    ],
+    "1925": [
+      "prop:efficiency-bound"
+    ],
+    "1926": [
+      "eq:variance-decomp"
+    ],
+    "1933": [
+      "prop:efficiency"
+    ],
+    "1934": [
+      "prop:efficiency-bound"
+    ],
+    "1942": [
+      "prop:efficiency-bound"
+    ],
+    "1973": [
+      "sec:primal"
+    ],
+    "1999": [
+      "eq:bias_linear",
+      "eq:imbalance_phi_infinite"
+    ],
+    "2000": [
+      "eq:bias_linear"
+    ],
+    "2006": [
+      "eq:imbalance_phi_infinite"
+    ],
+    "2009": [
+      "eq:sobolev-derivative",
+      "eq:sobolev-fourier"
+    ],
+    "2022": [
+      "eq:ms-sobolev-derivative"
+    ],
+    "2026": [
+      "eq:sobolev-derivative",
+      "eq:ms-sobolev-derivative",
+      "eq:sobolev-derivative"
+    ],
+    "2027": [
+      "eq:sobolev-derivative"
+    ],
+    "2030": [
+      "eq:imbalance_phi_infinite"
+    ],
+    "2058": [
+      "eq:ipw_linf_imbalance"
+    ],
+    "2102": [
+      "eq:lindisc-hdisc"
+    ],
+    "2115": [
+      "eq:round"
+    ],
+    "2157": [
+      "lemm:bdd_ent_class"
+    ],
+    "2158": [
+      "lemm:bdd_ent_class"
+    ],
+    "2184": [
+      "eq:rounding-one-step"
+    ],
+    "2310": [
+      "eq:sum-over-stages-discrepancy-bound"
+    ],
+    "2354": [
+      "lem:empirical-and-population-norm-equivalence"
+    ],
+    "2377": [
+      "cor:hdisc-negligible"
+    ],
+    "2378": [
+      "lemm:bdd_ent_class"
+    ],
+    "2419": [
+      "lem:empirical-and-population-norm-equivalence"
+    ],
+    "2506": [
+      "prop:matching-cost"
+    ],
+    "2515": [
+      "prop:matching-cost"
+    ],
+    "2521": [
+      "lemm:cross-term",
+      "eq:integer-identity"
+    ],
+    "2525": [
+      "lemm:cross-term"
+    ],
+    "2534": [
+      "lemm:cross-term"
+    ],
+    "2593": [
+      "lemm:cross-term"
+    ],
+    "2598": [
+      "eq:integer-variance"
+    ],
+    "2600": [
+      "prop:matching-achievable"
+    ],
+    "2601": [
+      "prop:matching-cost"
+    ],
+    "2604": [
+      "eq:round"
+    ],
+    "2611": [
+      "eq:integer-variance"
+    ],
+    "2623": [
+      "prop:matching-achievable"
+    ],
+    "2630": [
+      "eq:att-imbalance",
+      "eq:asymptotic-linearity-rounded",
+      "cor:rounding"
+    ],
+    "2633": [
+      "prop:matching-cost"
+    ],
+    "2638": [
+      "eq:integer-identity"
+    ],
+    "2649": [
+      "eq:integer-identity"
+    ],
+    "2653": [
+      "eq:rounding-error-functional"
+    ],
+    "2666": [
+      "lemm:cross-term",
+      "lem:rounding-error-estimated"
+    ],
+    "2686": [
+      "proposition:clt-general",
+      "eq:asymptotic-linearity-rounded",
+      "proposition:clt-general"
+    ],
+    "2698": [
+      "prop:matching-achievable"
+    ],
+    "2700": [
+      "cor:integer-sbw"
+    ],
+    "2701": [
+      "def:nonparametric"
+    ],
+    "2707": [
+      "eq:integer-variance",
+      "eq:integer-variance-estimator"
+    ],
+    "2709": [
+      "eq:integer-sbw",
+      "eq:integer-variance"
+    ],
+    "2712": [
+      "cor:integer-sbw"
+    ],
+    "2719": [
+      "cor:rounding"
+    ],
+    "2722": [
+      "prop:matching-cost",
+      "eq:integer-variance"
+    ],
+    "2725": [
+      "proposition:clt-general"
+    ],
+    "2727": [
+      "prop:matching-achievable",
+      "lem:minimax-donsker",
+      "prop:rounding",
+      "lem:minimax-donsker",
+      "eq:integer-variance",
+      "prop:matching-achievable"
+    ],
+    "2729": [
+      "eq:integer-sbw"
+    ],
+    "2732": [
+      "cor:rounding"
+    ],
+    "2735": [
+      "eq:round"
+    ],
+    "2746": [
+      "cor:rounding"
+    ],
+    "2747": [
+      "prop:rounding",
+      "eq:round"
+    ],
+    "2748": [
+      "proposition:clt-general"
+    ],
+    "2750": [
+      "eq:round"
+    ],
+    "2756": [
+      "eq:asymptotic-linearity-rounded",
+      "eq:asymptotic-normality-rounded",
+      "proposition:clt-general"
+    ],
+    "2760": [
+      "lem:minimax-donsker",
+      "cor:hdisc-negligible"
+    ],
+    "2768": [
+      "lemm:bdd_ent_class"
+    ],
+    "2773": [
+      "eq:integer-sbw"
+    ],
+    "2781": [
+      "rem:matching-variance"
+    ],
+    "2785": [
+      "cor:integer-sbw"
+    ],
+    "2798": [
+      "cor:integer-sbw"
+    ],
+    "2814": [
+      "rem:matching-variance"
+    ]
+  },
+  "labelRegions": {
+    "a:ignore": {
+      "page": 3,
+      "yTop": 44,
+      "yBottom": 74,
+      "type": "assumption",
+      "displayLabel": "Assumption 1"
+    },
+    "a:overlap": {
+      "page": 3,
+      "yTop": 64,
+      "yBottom": 94,
+      "type": "assumption",
+      "displayLabel": "Assumption 2"
+    },
+    "proposition:clt": {
+      "page": 7,
+      "yTop": 433.1,
+      "yBottom": 606.1,
+      "type": "proposition",
+      "displayLabel": "Proposition 4.1"
+    },
+    "a:regular-overlap": {
+      "page": 8,
+      "yTop": 112.6,
+      "yBottom": 142.6,
+      "type": "assumption",
+      "displayLabel": "Assumption 2$'$"
+    },
+    "def:nonparametric": {
+      "page": 8,
+      "yTop": 141.2,
+      "yBottom": 247.7,
+      "type": "definition",
+      "displayLabel": "Definition 1"
+    },
+    "def:weak-regularity": {
+      "page": 8,
+      "yTop": 310.9,
+      "yBottom": 366.6,
+      "type": "definition",
+      "displayLabel": "Definition 2"
+    },
+    "prop:efficiency-bound": {
+      "page": 8,
+      "yTop": 391.6,
+      "yBottom": 433.6,
+      "type": "proposition",
+      "displayLabel": "Proposition 4.1"
+    },
+    "prop:efficiency": {
+      "page": 9,
+      "yTop": 216.8,
+      "yBottom": 258.8,
+      "type": "proposition",
+      "displayLabel": "Proposition 4.2"
+    },
+    "prop:bias-balance": {
+      "page": 20,
+      "yTop": 495.4,
+      "yBottom": 600.5,
+      "type": "proposition",
+      "displayLabel": "Proposition 6.1"
+    },
+    "proposition:clt-general": {
+      "page": 23,
+      "yTop": 305.1,
+      "yBottom": 536.6,
+      "type": "proposition",
+      "displayLabel": "Proposition 7.1"
+    },
+    "prop:rounding": {
+      "page": 25,
+      "yTop": -35,
+      "yBottom": -5,
+      "type": "proposition",
+      "displayLabel": "Proposition 8.1"
+    },
+    "prop:matching-cost": {
+      "page": 26,
+      "yTop": 591.6,
+      "yBottom": 633.6,
+      "type": "proposition",
+      "displayLabel": "Proposition 8.2"
+    },
+    "prop:matching-achievable": {
+      "page": 26,
+      "yTop": -35,
+      "yBottom": -5,
+      "type": "proposition",
+      "displayLabel": "Proposition 8.3"
+    },
+    "cor:rounding": {
+      "page": 27,
+      "yTop": 113.1,
+      "yBottom": 276,
+      "type": "corollary",
+      "displayLabel": "Corollary 8.4"
+    },
+    "cor:integer-sbw": {
+      "page": 27,
+      "yTop": -35,
+      "yBottom": -5,
+      "type": "corollary",
+      "displayLabel": "Corollary 8.5"
+    },
+    "lemm:bdd_ent_class": {
+      "page": 37,
+      "yTop": -35,
+      "yBottom": 666.4,
+      "type": "lemma",
+      "displayLabel": "Lemma E.1"
+    },
+    "cor:hdisc-negligible": {
+      "page": 38,
+      "yTop": 170.6,
+      "yBottom": 230.4,
+      "type": "corollary",
+      "displayLabel": "Corollary E.2"
+    },
+    "lem:empirical-and-population-norm-equivalence": {
+      "page": 38,
+      "yTop": 284.1,
+      "yBottom": 338.1,
+      "type": "lemma",
+      "displayLabel": "Lemma E.3"
+    },
+    "def:regular-matching": {
+      "page": 44,
+      "yTop": 383.1,
+      "yBottom": 455.1,
+      "type": "definition",
+      "displayLabel": "Definition 3"
+    },
+    "lemm:cross-term": {
+      "page": 44,
+      "yTop": 458.5,
+      "yBottom": 520.5,
+      "type": "lemma",
+      "displayLabel": "Lemma E.4"
+    },
+    "lem:rounding-error-estimated": {
+      "page": 45,
+      "yTop": 596.5,
+      "yBottom": 626.5,
+      "type": "lemma",
+      "displayLabel": "Lemma E.5"
+    },
+    "lem:minimax-donsker": {
+      "page": 48,
+      "yTop": -35,
+      "yBottom": -5,
+      "type": "lemma",
+      "displayLabel": "Lemma E.6"
+    },
+    "prop:matching-efficiency": {
+      "page": 51,
+      "yTop": 106,
+      "yBottom": 249.6,
+      "type": "proposition",
+      "displayLabel": "Proposition E.7"
+    },
+    "eq:pate": {
+      "page": 2,
+      "yTop": 638.8,
+      "yBottom": 668.8,
+      "type": "equation",
+      "displayLabel": "(1)"
+    },
+    "eq_identification": {
+      "page": 3,
+      "yTop": 84,
+      "yBottom": 136,
+      "type": "equation",
+      "displayLabel": "(2)"
+    },
+    "eq_mipw-identity": {
+      "page": 3,
+      "yTop": 213.9,
+      "yBottom": 283.9,
+      "type": "equation",
+      "displayLabel": "(3)"
+    },
+    "eq_mipw-balance": {
+      "page": 3,
+      "yTop": 281.3,
+      "yBottom": 357.3,
+      "type": "equation",
+      "displayLabel": "(4)"
+    },
+    "eq_mipw-sample-balance": {
+      "page": 3,
+      "yTop": 349.3,
+      "yBottom": 456.8,
+      "type": "equation",
+      "displayLabel": "(5)"
+    },
+    "eq_general_ipw": {
+      "page": 3,
+      "yTop": 568.5,
+      "yBottom": 652,
+      "type": "equation",
+      "displayLabel": "(6)"
+    },
+    "eq:weights_error": {
+      "page": 3,
+      "yTop": -35,
+      "yBottom": -5,
+      "type": "equation",
+      "displayLabel": "(7)"
+    },
+    "eq:balance-bias-control-inside": {
+      "page": 4,
+      "yTop": 161,
+      "yBottom": 269.7,
+      "type": "equation",
+      "displayLabel": "eq:balance-bias-control-inside"
+    },
+    "eq:bias": {
+      "page": 4,
+      "yTop": 161,
+      "yBottom": 269.7,
+      "type": "equation",
+      "displayLabel": "(8)"
+    },
+    "eq:aipw2": {
+      "page": 4,
+      "yTop": 307.9,
+      "yBottom": 412.4,
+      "type": "equation",
+      "displayLabel": "(9)"
+    },
+    "eq:aipw2-imputation": {
+      "page": 4,
+      "yTop": 307.9,
+      "yBottom": 412.4,
+      "type": "equation",
+      "displayLabel": "(10)"
+    },
+    "eq:weights_error_aug": {
+      "page": 4,
+      "yTop": 539.2,
+      "yBottom": 598.3,
+      "type": "equation",
+      "displayLabel": "(11)"
+    },
+    "remark:tmle": {
+      "page": 5,
+      "yTop": 92,
+      "yBottom": 122,
+      "type": "unknown",
+      "displayLabel": "remark:tmle"
+    },
+    "eq_balancing-weights": {
+      "page": 6,
+      "yTop": 114.5,
+      "yBottom": 174.3,
+      "type": "equation",
+      "displayLabel": "(12)"
+    },
+    "eq_balancing-weights-general": {
+      "page": 6,
+      "yTop": 175.6,
+      "yBottom": 235.5,
+      "type": "equation",
+      "displayLabel": "(13)"
+    },
+    "eq:sbw": {
+      "page": 6,
+      "yTop": 236.8,
+      "yBottom": 318.7,
+      "type": "equation",
+      "displayLabel": "(14)"
+    },
+    "eq:dual_l2_penalized_regression": {
+      "page": 6,
+      "yTop": 331.4,
+      "yBottom": 448.6,
+      "type": "equation",
+      "displayLabel": "(15)"
+    },
+    "eq:dual-general": {
+      "page": 6,
+      "yTop": -35,
+      "yBottom": -5,
+      "type": "equation",
+      "displayLabel": "(16)"
+    },
+    "eq:asymptotic-linearity": {
+      "page": 7,
+      "yTop": 445.1,
+      "yBottom": 516.6,
+      "type": "equation",
+      "displayLabel": "(17)"
+    },
+    "eq:asymptotic-normality": {
+      "page": 7,
+      "yTop": 513.3,
+      "yBottom": 572.8,
+      "type": "equation",
+      "displayLabel": "(18)"
+    },
+    "eq:variance-decomp": {
+      "page": 8,
+      "yTop": 432.2,
+      "yBottom": 586.7,
+      "type": "equation",
+      "displayLabel": "(19)"
+    },
+    "eq:cross-term-decomp": {
+      "page": 8,
+      "yTop": -35,
+      "yBottom": -5,
+      "type": "equation",
+      "displayLabel": "(20)"
+    },
+    "eq:imbalance_margin_cat": {
+      "page": 9,
+      "yTop": -35,
+      "yBottom": -5,
+      "type": "equation",
+      "displayLabel": "(22)"
+    },
+    "eq:bias_linear": {
+      "page": 10,
+      "yTop": 89.1,
+      "yBottom": 198.1,
+      "type": "equation",
+      "displayLabel": "(23)"
+    },
+    "eq:bias_basis": {
+      "page": 10,
+      "yTop": 295.4,
+      "yBottom": 379.9,
+      "type": "equation",
+      "displayLabel": "(24)"
+    },
+    "eq:bias_interactions": {
+      "page": 10,
+      "yTop": 476.8,
+      "yBottom": 613.6,
+      "type": "equation",
+      "displayLabel": "(25)"
+    },
+    "eq:imbalance_interact": {
+      "page": 10,
+      "yTop": -35,
+      "yBottom": 645.7,
+      "type": "equation",
+      "displayLabel": "(26)"
+    },
+    "eq:binary-rkhs": {
+      "page": 11,
+      "yTop": 258.6,
+      "yBottom": 399.3,
+      "type": "equation",
+      "displayLabel": "(27)"
+    },
+    "eq:imbalance_phi_infinite": {
+      "page": 11,
+      "yTop": -35,
+      "yBottom": -5,
+      "type": "equation",
+      "displayLabel": "(28)"
+    },
+    "eq:sobolev-derivative": {
+      "page": 12,
+      "yTop": -35,
+      "yBottom": 494,
+      "type": "equation",
+      "displayLabel": "(29)"
+    },
+    "eq:sobolev-fourier": {
+      "page": 12,
+      "yTop": -35,
+      "yBottom": 494,
+      "type": "equation",
+      "displayLabel": "(30)"
+    },
+    "eq:ms-sobolev-derivative": {
+      "page": 12,
+      "yTop": -35,
+      "yBottom": 494,
+      "type": "equation",
+      "displayLabel": "(31)"
+    },
+    "eq:ms-sobolev-fourier": {
+      "page": 12,
+      "yTop": -35,
+      "yBottom": 494,
+      "type": "equation",
+      "displayLabel": "(32)"
+    },
+    "eq:sobolev-seminorm-derivative": {
+      "page": 13,
+      "yTop": 428.5,
+      "yBottom": 500.4,
+      "type": "equation",
+      "displayLabel": "(33)"
+    },
+    "eq:sobolev-seminorm-fourier": {
+      "page": 13,
+      "yTop": 428.5,
+      "yBottom": 500.4,
+      "type": "equation",
+      "displayLabel": "(34)"
+    },
+    "eq_balancing-weights-comparison": {
+      "page": 14,
+      "yTop": 413.4,
+      "yBottom": 507.3,
+      "type": "equation",
+      "displayLabel": "(35)"
+    },
+    "eq:ipw_linf_imbalance": {
+      "page": 14,
+      "yTop": -35,
+      "yBottom": 587.7,
+      "type": "equation",
+      "displayLabel": "(36)"
+    },
+    "eq:ipw_gen_imbalance_symmetrized": {
+      "page": 15,
+      "yTop": 189.2,
+      "yBottom": 295,
+      "type": "equation",
+      "displayLabel": "(37)"
+    },
+    "eq:symmetrization-bounds": {
+      "page": 15,
+      "yTop": 294.2,
+      "yBottom": 357.6,
+      "type": "equation",
+      "displayLabel": "(38)"
+    },
+    "eq:loss-difference": {
+      "page": 15,
+      "yTop": 358.1,
+      "yBottom": 476.9,
+      "type": "equation",
+      "displayLabel": "(39)"
+    },
+    "eq:least-squares-fixed-point": {
+      "page": 15,
+      "yTop": 472.6,
+      "yBottom": 558.1,
+      "type": "equation",
+      "displayLabel": "(40)"
+    },
+    "eq:single_function_imbalance": {
+      "page": 17,
+      "yTop": 98,
+      "yBottom": 171,
+      "type": "equation",
+      "displayLabel": "(41)"
+    },
+    "eq:least-squares-fixed-point-naive": {
+      "page": 17,
+      "yTop": 238.3,
+      "yBottom": 268.3,
+      "type": "equation",
+      "displayLabel": "(42)"
+    },
+    "eq:aipw-variance-true-weights": {
+      "page": 18,
+      "yTop": 431.9,
+      "yBottom": 531.3,
+      "type": "equation",
+      "displayLabel": "(43)"
+    },
+    "eq:linearized-weights": {
+      "page": 19,
+      "yTop": 216,
+      "yBottom": 319.1,
+      "type": "equation",
+      "displayLabel": "(44)"
+    },
+    "eq:omega-def": {
+      "page": 19,
+      "yTop": 314.7,
+      "yBottom": 395.8,
+      "type": "equation",
+      "displayLabel": "(45)"
+    },
+    "eq:donoho-liu-bias": {
+      "page": 19,
+      "yTop": 392.6,
+      "yBottom": 452.7,
+      "type": "equation",
+      "displayLabel": "(46)"
+    },
+    "eq:fixed-point": {
+      "page": 19,
+      "yTop": 452.8,
+      "yBottom": 530.6,
+      "type": "equation",
+      "displayLabel": "(47)"
+    },
+    "eq:xi-def": {
+      "page": 19,
+      "yTop": 570.1,
+      "yBottom": 662.6,
+      "type": "equation",
+      "displayLabel": "(48)"
+    },
+    "eq:secant-bound": {
+      "page": 19,
+      "yTop": -35,
+      "yBottom": -5,
+      "type": "equation",
+      "displayLabel": "(49)"
+    },
+    "eq:imbalance-bound": {
+      "page": 20,
+      "yTop": 507.4,
+      "yBottom": 577.3,
+      "type": "equation",
+      "displayLabel": "(50)"
+    },
+    "eq:aug_bias_dr": {
+      "page": 21,
+      "yTop": -35,
+      "yBottom": -5,
+      "type": "equation",
+      "displayLabel": "(51)"
+    },
+    "eq:targeted-ate": {
+      "page": 22,
+      "yTop": 515.6,
+      "yBottom": 621,
+      "type": "equation",
+      "displayLabel": "(53)"
+    },
+    "eq:amle-general": {
+      "page": 22,
+      "yTop": -35,
+      "yBottom": -5,
+      "type": "equation",
+      "displayLabel": "(54)"
+    },
+    "eq:riesz-representer-general": {
+      "page": 23,
+      "yTop": 54.599999999999994,
+      "yBottom": 141.9,
+      "type": "equation",
+      "displayLabel": "(55)"
+    },
+    "eq:generalizations": {
+      "page": 23,
+      "yTop": 272.5,
+      "yBottom": 302.7,
+      "type": "equation",
+      "displayLabel": "(56)"
+    },
+    "eq:asymptotic-linearity-amle": {
+      "page": 23,
+      "yTop": 361.6,
+      "yBottom": 445.3,
+      "type": "equation",
+      "displayLabel": "(57)"
+    },
+    "eq:asymptotic-normality-amle": {
+      "page": 23,
+      "yTop": 445.2,
+      "yBottom": 504,
+      "type": "equation",
+      "displayLabel": "(58)"
+    },
+    "eq:att-imbalance": {
+      "page": 24,
+      "yTop": 428,
+      "yBottom": 580.5,
+      "type": "equation",
+      "displayLabel": "(59)"
+    },
+    "eq:bernoulli-rounding-variance": {
+      "page": 25,
+      "yTop": 80,
+      "yBottom": 177.6,
+      "type": "equation",
+      "displayLabel": "(60)"
+    },
+    "eq:rounding-variance-deterministic": {
+      "page": 25,
+      "yTop": 178.2,
+      "yBottom": 250.8,
+      "type": "equation",
+      "displayLabel": "(61)"
+    },
+    "eq:rounding-excess": {
+      "page": 25,
+      "yTop": 253.89999999999998,
+      "yBottom": 341.4,
+      "type": "equation",
+      "displayLabel": "(62)"
+    },
+    "eq:round": {
+      "page": 25,
+      "yTop": 345.9,
+      "yBottom": 478.4,
+      "type": "equation",
+      "displayLabel": "(63)"
+    },
+    "eq:hdisc": {
+      "page": 26,
+      "yTop": 104.1,
+      "yBottom": 187.7,
+      "type": "equation",
+      "displayLabel": "(64)"
+    },
+    "eq:matching-cost": {
+      "page": 26,
+      "yTop": 476.2,
+      "yBottom": 558.9,
+      "type": "equation",
+      "displayLabel": "(65)"
+    },
+    "eq:asymptotic-linearity-rounded": {
+      "page": 27,
+      "yTop": 125.1,
+      "yBottom": 222.5,
+      "type": "equation",
+      "displayLabel": "(66)"
+    },
+    "eq:asymptotic-normality-rounded": {
+      "page": 27,
+      "yTop": 219.9,
+      "yBottom": 276,
+      "type": "equation",
+      "displayLabel": "(67)"
+    },
+    "rem:matching-variance": {
+      "page": 27,
+      "yTop": 274,
+      "yBottom": 304,
+      "type": "unknown",
+      "displayLabel": "rem:matching-variance"
+    },
+    "eq:integer-sbw": {
+      "page": 27,
+      "yTop": 460.3,
+      "yBottom": 564.5,
+      "type": "equation",
+      "displayLabel": "(68)"
+    },
+    "eq:modulus-constrained": {
+      "page": 32,
+      "yTop": 21.9,
+      "yBottom": 94.9,
+      "type": "equation",
+      "displayLabel": "(69)"
+    },
+    "proposition:appendix-clt-general": {
+      "page": 32,
+      "yTop": 268.1,
+      "yBottom": 298.1,
+      "type": "unknown",
+      "displayLabel": "proposition:appendix-clt-general"
+    },
+    "eq:weighted-l2-consistency": {
+      "page": 32,
+      "yTop": 268.1,
+      "yBottom": 377.6,
+      "type": "equation",
+      "displayLabel": "(70)"
+    },
+    "proposition:appendix-clt": {
+      "page": 32,
+      "yTop": 493.1,
+      "yBottom": 523.1,
+      "type": "unknown",
+      "displayLabel": "proposition:appendix-clt"
+    },
+    "eq:imbalance_rkhs": {
+      "page": 36,
+      "yTop": 383.9,
+      "yBottom": 431.4,
+      "type": "equation",
+      "displayLabel": "(71)"
+    },
+    "eq:discrepancy": {
+      "page": 37,
+      "yTop": 221.9,
+      "yBottom": 304.7,
+      "type": "equation",
+      "displayLabel": "(72)"
+    },
+    "eq:lindisc-hdisc": {
+      "page": 37,
+      "yTop": 314,
+      "yBottom": 402,
+      "type": "equation",
+      "displayLabel": "(73)"
+    },
+    "eq:rounding-one-step": {
+      "page": 38,
+      "yTop": 523.2,
+      "yBottom": 650.9,
+      "type": "equation",
+      "displayLabel": "(74)"
+    },
+    "eq:sum-over-stages-discrepancy-bound": {
+      "page": 38,
+      "yTop": -35,
+      "yBottom": -5,
+      "type": "equation",
+      "displayLabel": "(75)"
+    },
+    "eq:design-conditional-variance": {
+      "page": 44,
+      "yTop": 206.4,
+      "yBottom": 277.8,
+      "type": "equation",
+      "displayLabel": "(78)"
+    },
+    "eq:rounding-error-functional": {
+      "page": 44,
+      "yTop": 278.5,
+      "yBottom": 338,
+      "type": "equation",
+      "displayLabel": "(79)"
+    },
+    "eq:cross-term-general": {
+      "page": 44,
+      "yTop": 548.6,
+      "yBottom": 578.6,
+      "type": "equation",
+      "displayLabel": "(80)"
+    },
+    "eq:integer-identity": {
+      "page": 44,
+      "yTop": -35,
+      "yBottom": -5,
+      "type": "equation",
+      "displayLabel": "(81)"
+    },
+    "eq:integer-variance": {
+      "page": 45,
+      "yTop": 154.2,
+      "yBottom": 215.7,
+      "type": "equation",
+      "displayLabel": "(82)"
+    },
+    "eq:variance-decomp-1": {
+      "page": 45,
+      "yTop": 255.89999999999998,
+      "yBottom": 316,
+      "type": "equation",
+      "displayLabel": "(83)"
+    },
+    "eq:integer-variance-estimator": {
+      "page": 47,
+      "yTop": 294.4,
+      "yBottom": 353.9,
+      "type": "equation",
+      "displayLabel": "(84)"
+    },
+    "eq:variance-quadratic-rounded": {
+      "page": 47,
+      "yTop": 528.6,
+      "yBottom": 562.7,
+      "type": "equation",
+      "displayLabel": "(85)"
+    },
+    "sec:intro": {
+      "page": 2,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "section",
+      "displayLabel": "sec:intro"
+    },
+    "sec:framework": {
+      "page": 2,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "section",
+      "displayLabel": "sec:framework"
+    },
+    "sec:true_ipw": {
+      "page": 3,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "section",
+      "displayLabel": "sec:true_ipw"
+    },
+    "sec:aipw": {
+      "page": 4,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "section",
+      "displayLabel": "sec:aipw"
+    },
+    "sec:ipw": {
+      "page": 5,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "section",
+      "displayLabel": "sec:ipw"
+    },
+    "sec:mipw": {
+      "page": 5,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "section",
+      "displayLabel": "sec:mipw"
+    },
+    "sec:bal_weights_intro": {
+      "page": 6,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "section",
+      "displayLabel": "sec:bal_weights_intro"
+    },
+    "sec:asymptotic": {
+      "page": 7,
+      "yTop": 24,
+      "yBottom": 54,
+      "type": "section",
+      "displayLabel": "sec:asymptotic"
+    },
+    "sec:balance_models": {
+      "page": 9,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "section",
+      "displayLabel": "sec:balance_models"
+    },
+    "sec:balancing-binary": {
+      "page": 9,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "section",
+      "displayLabel": "sec:balancing-binary"
+    },
+    "sec_balancing_marginally": {
+      "page": 9,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "unknown",
+      "displayLabel": "sec_balancing_marginally"
+    },
+    "sec_balancing_all": {
+      "page": 10,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "unknown",
+      "displayLabel": "sec_balancing_all"
+    },
+    "sec:balancing-continuous-covariates": {
+      "page": 12,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "section",
+      "displayLabel": "sec:balancing-continuous-covariates"
+    },
+    "sec:function-space-perspective": {
+      "page": 12,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "section",
+      "displayLabel": "sec:function-space-perspective"
+    },
+    "sec:translation-invariance": {
+      "page": 13,
+      "yTop": 150.5,
+      "yBottom": 180.5,
+      "type": "section",
+      "displayLabel": "sec:translation-invariance"
+    },
+    "sec:other-considerations": {
+      "page": 13,
+      "yTop": 150.5,
+      "yBottom": 180.5,
+      "type": "section",
+      "displayLabel": "sec:other-considerations"
+    },
+    "sec:trade-offs": {
+      "page": 14,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "section",
+      "displayLabel": "sec:trade-offs"
+    },
+    "sec:plugin": {
+      "page": 14,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "section",
+      "displayLabel": "sec:plugin"
+    },
+    "fig:width-geometry": {
+      "page": 16,
+      "yTop": 160,
+      "yBottom": 190,
+      "type": "figure",
+      "displayLabel": "fig:width-geometry"
+    },
+    "sec:role-of-augmentation": {
+      "page": 17,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "section",
+      "displayLabel": "sec:role-of-augmentation"
+    },
+    "sec:doing-better": {
+      "page": 18,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "section",
+      "displayLabel": "sec:doing-better"
+    },
+    "fig:modulus": {
+      "page": 20,
+      "yTop": 90,
+      "yBottom": 120,
+      "type": "figure",
+      "displayLabel": "fig:modulus"
+    },
+    "fig:insample-outsample": {
+      "page": 21,
+      "yTop": 165.4,
+      "yBottom": 195.4,
+      "type": "figure",
+      "displayLabel": "fig:insample-outsample"
+    },
+    "remark:augmentation-convex": {
+      "page": 21,
+      "yTop": 165.4,
+      "yBottom": 195.4,
+      "type": "unknown",
+      "displayLabel": "remark:augmentation-convex"
+    },
+    "remark:undersmoothing": {
+      "page": 21,
+      "yTop": 165.4,
+      "yBottom": 195.4,
+      "type": "unknown",
+      "displayLabel": "remark:undersmoothing"
+    },
+    "sec:inner-product": {
+      "page": 22,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "section",
+      "displayLabel": "sec:inner-product"
+    },
+    "remark:regression-for-orthogonality": {
+      "page": 22,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "unknown",
+      "displayLabel": "remark:regression-for-orthogonality"
+    },
+    "sec:other-estimands": {
+      "page": 22,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "section",
+      "displayLabel": "sec:other-estimands"
+    },
+    "sec:matching": {
+      "page": 24,
+      "yTop": 12,
+      "yBottom": 42,
+      "type": "section",
+      "displayLabel": "sec:matching"
+    },
+    "refsection:1": {
+      "page": 32,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "unknown",
+      "displayLabel": "refsection:1"
+    },
+    "app:modulus-equivalence": {
+      "page": 32,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "unknown",
+      "displayLabel": "app:modulus-equivalence"
+    },
+    "sec:appendix-asymptotic-normality": {
+      "page": 32,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "section",
+      "displayLabel": "sec:appendix-asymptotic-normality"
+    },
+    "sec:appendix-weak-regularity": {
+      "page": 34,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "section",
+      "displayLabel": "sec:appendix-weak-regularity"
+    },
+    "sec:more-on-models": {
+      "page": 35,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "section",
+      "displayLabel": "sec:more-on-models"
+    },
+    "sec:lq-models": {
+      "page": 35,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "section",
+      "displayLabel": "sec:lq-models"
+    },
+    "sec:variation-models": {
+      "page": 35,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "section",
+      "displayLabel": "sec:variation-models"
+    },
+    "sec:sobolev-spaces": {
+      "page": 36,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "section",
+      "displayLabel": "sec:sobolev-spaces"
+    },
+    "sec:strong-norm-consistency": {
+      "page": 36,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "section",
+      "displayLabel": "sec:strong-norm-consistency"
+    },
+    "app:rounding": {
+      "page": 37,
+      "yTop": 0,
+      "yBottom": 30,
+      "type": "unknown",
+      "displayLabel": "app:rounding"
+    },
+    "sec:rounding-and-efficiency": {
+      "page": 44,
+      "yTop": 42.2,
+      "yBottom": 72.2,
+      "type": "section",
+      "displayLabel": "sec:rounding-and-efficiency"
+    },
+    "app:regression-orthogonality": {
+      "page": 51,
+      "yTop": 74,
+      "yBottom": 104,
+      "type": "unknown",
+      "displayLabel": "app:regression-orthogonality"
+    }
+  }
+}

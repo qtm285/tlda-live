@@ -1,0 +1,2387 @@
+{
+  "sec:intro": {
+    "label": "sec:intro",
+    "type": "sec",
+    "number": "1",
+    "page": 1,
+    "title": "Introduction",
+    "file": "blb.tex",
+    "line": 135
+  },
+  "sec:estimation-problem": {
+    "label": "sec:estimation-problem",
+    "type": "sec",
+    "number": "1.1",
+    "page": 2,
+    "title": "Estimating differentiable functionals",
+    "file": "body.tex",
+    "line": 95
+  },
+  "def:differentiable": {
+    "label": "def:differentiable",
+    "type": "def",
+    "number": "1.1",
+    "page": 2,
+    "title": "",
+    "file": "body.tex",
+    "line": 100
+  },
+  "eq:riesz-rep": {
+    "label": "eq:riesz-rep",
+    "type": "eq",
+    "number": "1",
+    "page": 2,
+    "title": "",
+    "file": "body.tex",
+    "line": 106
+  },
+  "eq:empirical-product": {
+    "label": "eq:empirical-product",
+    "type": "eq",
+    "number": "2",
+    "page": 2,
+    "title": "Observations",
+    "file": "body.tex",
+    "line": 132
+  },
+  "eq:P-def": {
+    "label": "eq:P-def",
+    "type": "eq",
+    "number": "3",
+    "page": 2,
+    "title": "Observations",
+    "file": "body.tex",
+    "line": 138
+  },
+  "eq:orthogonality": {
+    "label": "eq:orthogonality",
+    "type": "eq",
+    "number": "4",
+    "page": 2,
+    "title": "Observations",
+    "file": "body.tex",
+    "line": 148
+  },
+  "eq:one-step": {
+    "label": "eq:one-step",
+    "type": "eq",
+    "number": "5",
+    "page": 2,
+    "title": "The one-step estimator",
+    "file": "blb.tex",
+    "line": 229
+  },
+  "ex:treatment-specific-mean": {
+    "label": "ex:treatment-specific-mean",
+    "type": "ex",
+    "number": "1.1.1",
+    "page": 3,
+    "title": "Example: Estimating a Treatment-Specific Mean",
+    "file": "blb.tex",
+    "line": 200
+  },
+  "eq:tsm-estimand": {
+    "label": "eq:tsm-estimand",
+    "type": "eq",
+    "number": "6",
+    "page": 3,
+    "title": "Example: Estimating a Treatment-Specific Mean",
+    "file": "body.tex",
+    "line": 199
+  },
+  "eq:tsm-riesz": {
+    "label": "eq:tsm-riesz",
+    "type": "eq",
+    "number": "7",
+    "page": 3,
+    "title": "Example: Estimating a Treatment-Specific Mean",
+    "file": "body.tex",
+    "line": 206
+  },
+  "ex:average-linear-regression": {
+    "label": "ex:average-linear-regression",
+    "type": "ex",
+    "number": "1.1.2",
+    "page": 3,
+    "title": "Example: Average Linear Regression Function",
+    "file": "body.tex",
+    "line": 219
+  },
+  "eq:cond-slope": {
+    "label": "eq:cond-slope",
+    "type": "eq",
+    "number": "8",
+    "page": 3,
+    "title": "Example: Average Linear Regression Function",
+    "file": "body.tex",
+    "line": 224
+  },
+  "ex:vcate": {
+    "label": "ex:vcate",
+    "type": "ex",
+    "number": "1.1.3",
+    "page": 3,
+    "title": "Example: Variance of the Conditional Average Treatment Effect",
+    "file": "body.tex",
+    "line": 245
+  },
+  "eq:vcate": {
+    "label": "eq:vcate",
+    "type": "eq",
+    "number": "9",
+    "page": 3,
+    "title": "Example: Variance of the Conditional Average Treatment Effect",
+    "file": "body.tex",
+    "line": 251
+  },
+  "eq:vcate-derivative": {
+    "label": "eq:vcate-derivative",
+    "type": "eq",
+    "number": "10",
+    "page": 3,
+    "title": "Example: Variance of the Conditional Average Treatment Effect",
+    "file": "body.tex",
+    "line": 267
+  },
+  "eq:vcate-riesz": {
+    "label": "eq:vcate-riesz",
+    "type": "eq",
+    "number": "11",
+    "page": 3,
+    "title": "Example: Variance of the Conditional Average Treatment Effect",
+    "file": "body.tex",
+    "line": 276
+  },
+  "sec:estimating-riesz": {
+    "label": "sec:estimating-riesz",
+    "type": "sec",
+    "number": "1.2",
+    "page": 4,
+    "title": "Estimating Riesz Representers",
+    "file": "body.tex",
+    "line": 293
+  },
+  "eq:primal-moment-matching": {
+    "label": "eq:primal-moment-matching",
+    "type": "eq",
+    "number": "12",
+    "page": 4,
+    "title": "Estimating Riesz Representers",
+    "file": "blb.tex",
+    "line": 148
+  },
+  "eq:dual-problem": {
+    "label": "eq:dual-problem",
+    "type": "eq",
+    "number": "13",
+    "page": 4,
+    "title": "Estimating Riesz Representers",
+    "file": "blb.tex",
+    "line": 158
+  },
+  "eq:loss-difference": {
+    "label": "eq:loss-difference",
+    "type": "eq",
+    "number": "14",
+    "page": 4,
+    "title": "Estimating Riesz Representers",
+    "file": "blb.tex",
+    "line": 166
+  },
+  "eq:bregman-duality": {
+    "label": "eq:bregman-duality",
+    "type": "eq",
+    "number": "15",
+    "page": 4,
+    "title": "The Weight Scale",
+    "file": "body.tex",
+    "line": 396
+  },
+  "sec:modeling": {
+    "label": "sec:modeling",
+    "type": "sec",
+    "number": "1.3",
+    "page": 5,
+    "title": "Modeling considerations",
+    "file": "body.tex",
+    "line": 452
+  },
+  "sec:zeta": {
+    "label": "sec:zeta",
+    "type": "sec",
+    "number": "1.3",
+    "page": 6,
+    "title": "Choosing $\\zeta $",
+    "file": "blb.tex",
+    "line": 380
+  },
+  "sec:context": {
+    "label": "sec:context",
+    "type": "sec",
+    "number": "2",
+    "page": 6,
+    "title": "Context",
+    "file": "body.tex",
+    "line": 505
+  },
+  "eq:decomposition": {
+    "label": "eq:decomposition",
+    "type": "eq",
+    "number": "18",
+    "page": 6,
+    "title": "Context",
+    "file": "body.tex",
+    "line": 509
+  },
+  "sec:linearization": {
+    "label": "sec:linearization",
+    "type": "sec",
+    "number": "2.1",
+    "page": 7,
+    "title": "Negligible linearization error",
+    "file": "body.tex",
+    "line": 534
+  },
+  "sec:imbalance-bias": {
+    "label": "sec:imbalance-bias",
+    "type": "sec",
+    "number": "2.2",
+    "page": 7,
+    "title": "Imbalance and bias control",
+    "file": "body.tex",
+    "line": 547
+  },
+  "sec:noise-convergence": {
+    "label": "sec:noise-convergence",
+    "type": "sec",
+    "number": "2.3",
+    "page": 7,
+    "title": "Well-behaved noise average",
+    "file": "body.tex",
+    "line": 651
+  },
+  "eq:variance-estimate": {
+    "label": "eq:variance-estimate",
+    "type": "eq",
+    "number": "19",
+    "page": 7,
+    "title": "Well-behaved noise average",
+    "file": "body.tex",
+    "line": 661
+  },
+  "sec:quadratic-baseline": {
+    "label": "sec:quadratic-baseline",
+    "type": "sec",
+    "number": "2.4",
+    "page": 9,
+    "title": "The quadratic baseline",
+    "file": "body.tex",
+    "line": 824
+  },
+  "eq:lasso-seminorm": {
+    "label": "eq:lasso-seminorm",
+    "type": "eq",
+    "number": "21",
+    "page": 9,
+    "title": "The quadratic baseline",
+    "file": "blb.tex",
+    "line": 248
+  },
+  "sec:contribution": {
+    "label": "sec:contribution",
+    "type": "sec",
+    "number": "3",
+    "page": 10,
+    "title": "Contribution",
+    "file": "body.tex",
+    "line": 862
+  },
+  "eq:offset-complexity-intro": {
+    "label": "eq:offset-complexity-intro",
+    "type": "eq",
+    "number": "22",
+    "page": 10,
+    "title": "Bregman-offset complexity",
+    "file": "body.tex",
+    "line": 939
+  },
+  "sec:results": {
+    "label": "sec:results",
+    "type": "sec",
+    "number": "4",
+    "page": 11,
+    "title": "Abstract Results",
+    "file": "blb.tex",
+    "line": 393
+  },
+  "sec:statistical-considerations": {
+    "label": "sec:statistical-considerations",
+    "type": "sec",
+    "number": "4",
+    "page": 11,
+    "title": "Abstract Results",
+    "file": "body.tex",
+    "line": 1075
+  },
+  "sec:organizing-principle": {
+    "label": "sec:organizing-principle",
+    "type": "sec",
+    "number": "4.1",
+    "page": 11,
+    "title": "Organizing principle",
+    "file": "body.tex",
+    "line": 1078
+  },
+  "sec:setup": {
+    "label": "sec:setup",
+    "type": "sec",
+    "number": "4.2",
+    "page": 11,
+    "title": "Setup",
+    "file": "body.tex",
+    "line": 1098
+  },
+  "eq:regularized-bregman-projection": {
+    "label": "eq:regularized-bregman-projection",
+    "type": "eq",
+    "number": "23",
+    "page": 11,
+    "title": "Setup",
+    "file": "blb.tex",
+    "line": 399
+  },
+  "eq:loss-difference-with-foc": {
+    "label": "eq:loss-difference-with-foc",
+    "type": "eq",
+    "number": "24",
+    "page": 11,
+    "title": "Setup",
+    "file": "blb.tex",
+    "line": 406
+  },
+  "sec:scope": {
+    "label": "sec:scope",
+    "type": "sec",
+    "number": "4.2",
+    "page": 11,
+    "title": "Scope",
+    "file": "blb.tex",
+    "line": 417
+  },
+  "eq:seminorm-embedding": {
+    "label": "eq:seminorm-embedding",
+    "type": "eq",
+    "number": "25",
+    "page": 12,
+    "title": "Scope",
+    "file": "body.tex",
+    "line": 1148
+  },
+  "eq:interpolation": {
+    "label": "eq:interpolation",
+    "type": "eq",
+    "number": "26",
+    "page": 12,
+    "title": "Scope",
+    "file": "body.tex",
+    "line": 1175
+  },
+  "sec:duality-main": {
+    "label": "sec:duality-main",
+    "type": "sec",
+    "number": "4.3",
+    "page": 12,
+    "title": "Duality",
+    "file": "body.tex",
+    "line": 1206
+  },
+  "prop:duality": {
+    "label": "prop:duality",
+    "type": "prop",
+    "number": "4.1",
+    "page": 12,
+    "title": "Strong Duality",
+    "file": "balancing-weights-consistency.tex",
+    "line": 127
+  },
+  "sec:bias": {
+    "label": "sec:bias",
+    "type": "sec",
+    "number": "4.4",
+    "page": 13,
+    "title": "Bias",
+    "file": "body.tex",
+    "line": 1218
+  },
+  "thm:bias-decomp": {
+    "label": "thm:bias-decomp",
+    "type": "thm",
+    "number": "4.2",
+    "page": 13,
+    "title": "Bias bound",
+    "file": "body.tex",
+    "line": 1225
+  },
+  "sec:variance": {
+    "label": "sec:variance",
+    "type": "sec",
+    "number": "4.5",
+    "page": 13,
+    "title": "Variance",
+    "file": "body.tex",
+    "line": 1233
+  },
+  "fig:body-bregman-comparison": {
+    "label": "fig:body-bregman-comparison",
+    "type": "fig",
+    "number": "1",
+    "page": 14,
+    "title": "The tame Bregman divergence (dotted) against the Bregman divergences $D_{\\chisZ",
+    "file": "body.tex",
+    "line": 1271
+  },
+  "thm:rate-main": {
+    "label": "thm:rate-main",
+    "type": "thm",
+    "number": "4.3",
+    "page": 14,
+    "title": "Rate of Convergence",
+    "file": "blb.tex",
+    "line": 507
+  },
+  "eq:rademacher-complexity": {
+    "label": "eq:rademacher-complexity",
+    "type": "eq",
+    "number": "27",
+    "page": 15,
+    "title": "Rate of Convergence",
+    "file": "blb.tex",
+    "line": 521
+  },
+  "eq:F-complexity": {
+    "label": "eq:F-complexity",
+    "type": "eq",
+    "number": "28",
+    "page": 15,
+    "title": "Rate of Convergence",
+    "file": "blb.tex",
+    "line": 522
+  },
+  "sec:worked-examples": {
+    "label": "sec:worked-examples",
+    "type": "sec",
+    "number": "5",
+    "page": 15,
+    "title": "Worked Examples",
+    "file": "body.tex",
+    "line": 1337
+  },
+  "sec:example-tsm": {
+    "label": "sec:example-tsm",
+    "type": "sec",
+    "number": "5.1",
+    "page": 16,
+    "title": "Treatment-specific mean",
+    "file": "body.tex",
+    "line": 1364
+  },
+  "fig:weight-fan": {
+    "label": "fig:weight-fan",
+    "type": "fig",
+    "number": "2",
+    "page": 18,
+    "title": "Estimated weight functions $\\hat \\gamma (x)$ for quadratic (left, blue) and entropy (right, red) dispersions across twelve values of $\\eta $ from $10^{-0.5",
+    "file": "body.tex",
+    "line": 1540
+  },
+  "sec:example-regression": {
+    "label": "sec:example-regression",
+    "type": "sec",
+    "number": "5.2",
+    "page": 19,
+    "title": "Average linear regression",
+    "file": "body.tex",
+    "line": 1632
+  },
+  "sec:example-vcate": {
+    "label": "sec:example-vcate",
+    "type": "sec",
+    "number": "5.3",
+    "page": 19,
+    "title": "Variance of the CATE",
+    "file": "body.tex",
+    "line": 1676
+  },
+  "eq:vcate-linearization": {
+    "label": "eq:vcate-linearization",
+    "type": "eq",
+    "number": "29",
+    "page": 20,
+    "title": "The linearization error",
+    "file": "body.tex",
+    "line": 1726
+  },
+  "sec:background": {
+    "label": "sec:background",
+    "type": "sec",
+    "number": "A",
+    "page": 20,
+    "title": "Background",
+    "file": "bregman-lower-bound.tex",
+    "line": 105
+  },
+  "sec:empirical-process-tools": {
+    "label": "sec:empirical-process-tools",
+    "type": "sec",
+    "number": "A.1",
+    "page": 20,
+    "title": "Empirical process tools",
+    "file": ".bak-before-deletion.tex",
+    "line": 887
+  },
+  "lem:efron-stein": {
+    "label": "lem:efron-stein",
+    "type": "lem",
+    "number": "A.1",
+    "page": 20,
+    "title": "Variance of suprema; Example~3.6 of \\citealt {boucheron2013concentration",
+    "file": ".bak-before-deletion.tex",
+    "line": 897
+  },
+  "lem:symmetrization": {
+    "label": "lem:symmetrization",
+    "type": "lem",
+    "number": "A.2",
+    "page": 21,
+    "title": "Symmetrization; Lemma~6.3 of \\citealt {ledoux2013probability",
+    "file": ".bak-before-deletion.tex",
+    "line": 907
+  },
+  "lem:contraction": {
+    "label": "lem:contraction",
+    "type": "lem",
+    "number": "A.3",
+    "page": 21,
+    "title": "Contraction; Theorem~4.12 of \\citealt {ledoux2013probability",
+    "file": ".bak-before-deletion.tex",
+    "line": 923
+  },
+  "lem:talagrand": {
+    "label": "lem:talagrand",
+    "type": "lem",
+    "number": "A.4",
+    "page": 21,
+    "title": "Talagrand concentration",
+    "file": ".bak-before-deletion.tex",
+    "line": 938
+  },
+  "sec:analysis-tools": {
+    "label": "sec:analysis-tools",
+    "type": "sec",
+    "number": "A.2",
+    "page": 21,
+    "title": "Convex and functional analysis tools",
+    "file": "bregman-lower-bound.tex",
+    "line": 212
+  },
+  "lem:fenchel-rockafellar": {
+    "label": "lem:fenchel-rockafellar",
+    "type": "lem",
+    "number": "A.5",
+    "page": 21,
+    "title": "Fenchel--Rockafellar duality {\\citep [Theorem~3.51]{peypouquet2015convex",
+    "file": ".bak-before-deletion.tex",
+    "line": 1034
+  },
+  "lem:subdiff-sum": {
+    "label": "lem:subdiff-sum",
+    "type": "lem",
+    "number": "A.6",
+    "page": 21,
+    "title": "Subdifferential sum rule {\\citep [Proposition~3.28]{peypouquet2015convex",
+    "file": ".bak-before-deletion.tex",
+    "line": 348
+  },
+  "lem:banach-alaoglu": {
+    "label": "lem:banach-alaoglu",
+    "type": "lem",
+    "number": "A.7",
+    "page": 21,
+    "title": "Banach--Alaoglu theorem; {\\citealt [Theorem~6.21]{aliprantis2006infinite",
+    "file": "bregman-lower-bound.tex",
+    "line": 241
+  },
+  "lem:goldstine": {
+    "label": "lem:goldstine",
+    "type": "lem",
+    "number": "A.8",
+    "page": 22,
+    "title": "Goldstine's theorem; {\\citealt [Theorem~2.6.26]{megginson2012introduction",
+    "file": ".bak-before-deletion.tex",
+    "line": 1163
+  },
+  "cor:argmin-continuity": {
+    "label": "cor:argmin-continuity",
+    "type": "cor",
+    "number": "A.9",
+    "page": 22,
+    "title": "Continuity of a quantity constant across minimizers",
+    "file": "bregman-lower-bound.tex",
+    "line": 250
+  },
+  "sec:riesz-existence": {
+    "label": "sec:riesz-existence",
+    "type": "sec",
+    "number": "A.3",
+    "page": 22,
+    "title": "Existence of the Riesz representer",
+    "file": ".bak-before-deletion.tex",
+    "line": 989
+  },
+  "lem:riesz-representation": {
+    "label": "lem:riesz-representation",
+    "type": "lem",
+    "number": "A.10",
+    "page": 22,
+    "title": "Riesz representation theorem; {\\citealt [Theorem~1.41]{peypouquet2015convex",
+    "file": "bregman-lower-bound.tex",
+    "line": 279
+  },
+  "sec:duality": {
+    "label": "sec:duality",
+    "type": "sec",
+    "number": "B",
+    "page": 22,
+    "title": "Duality",
+    "file": ".bak-before-deletion.tex",
+    "line": 1004
+  },
+  "sec:abstract-result": {
+    "label": "sec:abstract-result",
+    "type": "sec",
+    "number": "B.1",
+    "page": 22,
+    "title": "Abstract result",
+    "file": "bregman-lower-bound.tex",
+    "line": 297
+  },
+  "lem:duality-general": {
+    "label": "lem:duality-general",
+    "type": "lem",
+    "number": "B.1",
+    "page": 23,
+    "title": "Duality with a general weight space",
+    "file": ".bak-before-deletion.tex",
+    "line": 1015
+  },
+  "lem:l1-total-convexity": {
+    "label": "lem:l1-total-convexity",
+    "type": "lem",
+    "number": "B.2",
+    "page": 24,
+    "title": "Total convexity in $L_1$",
+    "file": ".bak-before-deletion.tex",
+    "line": 1296
+  },
+  "cor:population-reference": {
+    "label": "cor:population-reference",
+    "type": "cor",
+    "number": "B.3",
+    "page": 25,
+    "title": "Population minimizer",
+    "file": ".bak-before-deletion.tex",
+    "line": 1317
+  },
+  "sec:setting-prelim": {
+    "label": "sec:setting-prelim",
+    "type": "sec",
+    "number": "C",
+    "page": 27,
+    "title": "Setting and Preliminaries",
+    "file": "bregman-lower-bound.tex",
+    "line": 446
+  },
+  "sec:setting": {
+    "label": "sec:setting",
+    "type": "sec",
+    "number": "C.1",
+    "page": 27,
+    "title": "The setting",
+    "file": ".bak-before-deletion.tex",
+    "line": 108
+  },
+  "sec:setting-assumptions": {
+    "label": "sec:setting-assumptions",
+    "type": "sec",
+    "number": "C.1",
+    "page": 27,
+    "title": "The setting",
+    "file": ".bak-before-deletion.tex",
+    "line": 124
+  },
+  "cond:interpolation": {
+    "label": "cond:interpolation",
+    "type": "cond",
+    "number": "C.1",
+    "page": 27,
+    "title": "Interpolation",
+    "file": ".bak-before-deletion.tex",
+    "line": 187
+  },
+  "ass:kernel-equiv": {
+    "label": "ass:kernel-equiv",
+    "type": "ass",
+    "number": "C.2",
+    "page": 27,
+    "title": "Kernel norm-equivalence",
+    "file": "bregman-lower-bound.tex",
+    "line": 478
+  },
+  "eq:kernel-equiv": {
+    "label": "eq:kernel-equiv",
+    "type": "eq",
+    "number": "30",
+    "page": 27,
+    "title": "Kernel norm-equivalence",
+    "file": "bregman-lower-bound.tex",
+    "line": 480
+  },
+  "lem:seminorm-embedding": {
+    "label": "lem:seminorm-embedding",
+    "type": "lem",
+    "number": "C.1",
+    "page": 27,
+    "title": "Seminorm embedding",
+    "file": ".bak-before-deletion.tex",
+    "line": 154
+  },
+  "eq:setting-q-embedding": {
+    "label": "eq:setting-q-embedding",
+    "type": "eq",
+    "number": "31",
+    "page": 27,
+    "title": "Seminorm embedding",
+    "file": ".bak-before-deletion.tex",
+    "line": 157
+  },
+  "ass:psc": {
+    "label": "ass:psc",
+    "type": "ass",
+    "number": "C.3",
+    "page": 28,
+    "title": "Pseudo-self-concordance",
+    "file": ".bak-before-deletion.tex",
+    "line": 129
+  },
+  "eq:psc-condition": {
+    "label": "eq:psc-condition",
+    "type": "eq",
+    "number": "32",
+    "page": 28,
+    "title": "Pseudo-self-concordance",
+    "file": ".bak-before-deletion.tex",
+    "line": 131
+  },
+  "sec:duality-corollary": {
+    "label": "sec:duality-corollary",
+    "type": "sec",
+    "number": "C.2",
+    "page": 28,
+    "title": "The duality corollary",
+    "file": "bregman-lower-bound.tex",
+    "line": 523
+  },
+  "cor:scalar-duality": {
+    "label": "cor:scalar-duality",
+    "type": "cor",
+    "number": "C.2",
+    "page": 28,
+    "title": "Scalar specialization",
+    "file": ".bak-before-deletion.tex",
+    "line": 1082
+  },
+  "eq:fr-primal": {
+    "label": "eq:fr-primal",
+    "type": "eq",
+    "number": "33",
+    "page": 29,
+    "title": "The duality corollary",
+    "file": ".bak-before-deletion.tex",
+    "line": 1183
+  },
+  "eq:fr-dual": {
+    "label": "eq:fr-dual",
+    "type": "eq",
+    "number": "34",
+    "page": 29,
+    "title": "The duality corollary",
+    "file": ".bak-before-deletion.tex",
+    "line": 1200
+  },
+  "eq:r-star-dual": {
+    "label": "eq:r-star-dual",
+    "type": "eq",
+    "number": "35",
+    "page": 29,
+    "title": "The duality corollary",
+    "file": ".bak-before-deletion.tex",
+    "line": 1207
+  },
+  "eq:dual-for-bidual-elements": {
+    "label": "eq:dual-for-bidual-elements",
+    "type": "eq",
+    "number": "36",
+    "page": 29,
+    "title": "The duality corollary",
+    "file": ".bak-before-deletion.tex",
+    "line": 1218
+  },
+  "eq:dual-for-primal-elements": {
+    "label": "eq:dual-for-primal-elements",
+    "type": "eq",
+    "number": "37",
+    "page": 30,
+    "title": "The duality corollary",
+    "file": ".bak-before-deletion.tex",
+    "line": 1232
+  },
+  "eq:within-coset-optimality": {
+    "label": "eq:within-coset-optimality",
+    "type": "eq",
+    "number": "38",
+    "page": 30,
+    "title": "The duality corollary",
+    "file": ".bak-before-deletion.tex",
+    "line": 1248
+  },
+  "eq:gradient-chain": {
+    "label": "eq:gradient-chain",
+    "type": "eq",
+    "number": "39",
+    "page": 32,
+    "title": "The duality corollary",
+    "file": ".bak-before-deletion.tex",
+    "line": 1279
+  },
+  "sec:loss-difference": {
+    "label": "sec:loss-difference",
+    "type": "sec",
+    "number": "C.3",
+    "page": 32,
+    "title": "The loss difference",
+    "file": ".bak-before-deletion.tex",
+    "line": 224
+  },
+  "eq:foc-population": {
+    "label": "eq:foc-population",
+    "type": "eq",
+    "number": "40",
+    "page": 32,
+    "title": "The loss difference",
+    "file": ".bak-before-deletion.tex",
+    "line": 315
+  },
+  "sec:bregman-examples": {
+    "label": "sec:bregman-examples",
+    "type": "sec",
+    "number": "C.4",
+    "page": 33,
+    "title": "Bregman divergences of the dispersion",
+    "file": ".bak-before-deletion.tex",
+    "line": 636
+  },
+  "eq:dual-bregman-identity": {
+    "label": "eq:dual-bregman-identity",
+    "type": "eq",
+    "number": "41",
+    "page": 33,
+    "title": "Bregman divergences of the dispersion",
+    "file": ".bak-before-deletion.tex",
+    "line": 641
+  },
+  "fig:bregman-comparison": {
+    "label": "fig:bregman-comparison",
+    "type": "fig",
+    "number": "3",
+    "page": 34,
+    "title": "Bregman divergences $D_{\\chis",
+    "file": ".bak-before-deletion.tex",
+    "line": 883
+  },
+  "lem:integral-characterizations": {
+    "label": "lem:integral-characterizations",
+    "type": "lem",
+    "number": "C.3",
+    "page": 34,
+    "title": "Integral characterizations",
+    "file": "bregman-lower-bound.tex",
+    "line": 911
+  },
+  "eq:bregman-ftc": {
+    "label": "eq:bregman-ftc",
+    "type": "eq",
+    "number": "42",
+    "page": 34,
+    "title": "Integral characterizations",
+    "file": ".bak-before-deletion.tex",
+    "line": 713
+  },
+  "eq:bregman-taylor": {
+    "label": "eq:bregman-taylor",
+    "type": "eq",
+    "number": "43",
+    "page": 34,
+    "title": "Integral characterizations",
+    "file": "bregman-lower-bound.tex",
+    "line": 922
+  },
+  "lem:e-type-bounds": {
+    "label": "lem:e-type-bounds",
+    "type": "lem",
+    "number": "C.4",
+    "page": 34,
+    "title": "Curvature ratio",
+    "file": ".bak-before-deletion.tex",
+    "line": 703
+  },
+  "eq:curvature-ratio-psc": {
+    "label": "eq:curvature-ratio-psc",
+    "type": "eq",
+    "number": "44",
+    "page": 34,
+    "title": "Curvature ratio",
+    "file": ".bak-before-deletion.tex",
+    "line": 706
+  },
+  "lem:ratio-bound": {
+    "label": "lem:ratio-bound",
+    "type": "lem",
+    "number": "C.5",
+    "page": 35,
+    "title": "Ratio bound",
+    "file": ".bak-before-deletion.tex",
+    "line": 754
+  },
+  "eq:ratio-bound": {
+    "label": "eq:ratio-bound",
+    "type": "eq",
+    "number": "45",
+    "page": 35,
+    "title": "Ratio bound",
+    "file": ".bak-before-deletion.tex",
+    "line": 759
+  },
+  "eq:tame-bregman": {
+    "label": "eq:tame-bregman",
+    "type": "eq",
+    "number": "46",
+    "page": 35,
+    "title": "Bregman divergences of the dispersion",
+    "file": ".bak-before-deletion.tex",
+    "line": 817
+  },
+  "def:tame-bregman": {
+    "label": "def:tame-bregman",
+    "type": "def",
+    "number": "C.1",
+    "page": 35,
+    "title": "Tame Bregman divergence",
+    "file": ".bak-before-deletion.tex",
+    "line": 814
+  },
+  "eq:tame-bregman-two-arg": {
+    "label": "eq:tame-bregman-two-arg",
+    "type": "eq",
+    "number": "47",
+    "page": 35,
+    "title": "Tame Bregman divergence",
+    "file": ".bak-before-deletion.tex",
+    "line": 824
+  },
+  "sec:bias-bound": {
+    "label": "sec:bias-bound",
+    "type": "sec",
+    "number": "D",
+    "page": 36,
+    "title": "Bias Bound",
+    "file": ".bak-before-deletion.tex",
+    "line": 1387
+  },
+  "thm:bias-decomp-restate": {
+    "label": "thm:bias-decomp-restate",
+    "type": "thm",
+    "number": "D.1",
+    "page": 36,
+    "title": "Bias bound",
+    "file": ".bak-before-deletion.tex",
+    "line": 1400
+  },
+  "sec:bias-proofs": {
+    "label": "sec:bias-proofs",
+    "type": "sec",
+    "number": "D.0.1",
+    "page": 36,
+    "title": "Bias characterization",
+    "file": ".bak-before-deletion.tex",
+    "line": 1424
+  },
+  "lem:operating-point": {
+    "label": "lem:operating-point",
+    "type": "lem",
+    "number": "D.2",
+    "page": 36,
+    "title": "Bias characterization",
+    "file": ".bak-before-deletion.tex",
+    "line": 1432
+  },
+  "eq:bias-characterization": {
+    "label": "eq:bias-characterization",
+    "type": "eq",
+    "number": "48",
+    "page": 36,
+    "title": "Bias characterization",
+    "file": ".bak-before-deletion.tex",
+    "line": 1436
+  },
+  "lem:perspective-convexity": {
+    "label": "lem:perspective-convexity",
+    "type": "lem",
+    "number": "D.3",
+    "page": 36,
+    "title": "Perspective function convexity {\\citep [Section~3.2.6]{boyd2004convex",
+    "file": ".bak-before-deletion.tex",
+    "line": 1451
+  },
+  "lem:kkt": {
+    "label": "lem:kkt",
+    "type": "lem",
+    "number": "D.4",
+    "page": 36,
+    "title": "KKT conditions {\\citep [Theorem~3.66]{peypouquet2015convex",
+    "file": ".bak-before-deletion.tex",
+    "line": 1459
+  },
+  "lem:danskin": {
+    "label": "lem:danskin",
+    "type": "lem",
+    "number": "D.5",
+    "page": 36,
+    "title": "Envelope theorem {\\citep [Proposition~B.25]{bertsekas2009convex",
+    "file": ".bak-before-deletion.tex",
+    "line": 330
+  },
+  "eq:modulus-as-dual": {
+    "label": "eq:modulus-as-dual",
+    "type": "eq",
+    "number": "49",
+    "page": 37,
+    "title": "Bias characterization",
+    "file": ".bak-before-deletion.tex",
+    "line": 1500
+  },
+  "eq:kkt-identification": {
+    "label": "eq:kkt-identification",
+    "type": "eq",
+    "number": "50",
+    "page": 37,
+    "title": "Bias characterization",
+    "file": ".bak-before-deletion.tex",
+    "line": 1550
+  },
+  "lem:offset-complexity": {
+    "label": "lem:offset-complexity",
+    "type": "lem",
+    "number": "D.6",
+    "page": 38,
+    "title": "Offset complexity",
+    "file": ".bak-before-deletion.tex",
+    "line": 1602
+  },
+  "eq:offset-complexity": {
+    "label": "eq:offset-complexity",
+    "type": "eq",
+    "number": "51",
+    "page": 38,
+    "title": "Offset complexity",
+    "file": ".bak-before-deletion.tex",
+    "line": 1606
+  },
+  "eq:bias-formula": {
+    "label": "eq:bias-formula",
+    "type": "eq",
+    "number": "52",
+    "page": 38,
+    "title": "Offset complexity",
+    "file": ".bak-before-deletion.tex",
+    "line": 1614
+  },
+  "eq:centering-decomp": {
+    "label": "eq:centering-decomp",
+    "type": "eq",
+    "number": "53",
+    "page": 38,
+    "title": "Offset complexity",
+    "file": ".bak-before-deletion.tex",
+    "line": 1643
+  },
+  "eq:offset-reparameterized": {
+    "label": "eq:offset-reparameterized",
+    "type": "eq",
+    "number": "54",
+    "page": 38,
+    "title": "Offset complexity",
+    "file": ".bak-before-deletion.tex",
+    "line": 1675
+  },
+  "eq:bias-derivative": {
+    "label": "eq:bias-derivative",
+    "type": "eq",
+    "number": "55",
+    "page": 38,
+    "title": "Offset complexity",
+    "file": ".bak-before-deletion.tex",
+    "line": 1691
+  },
+  "eq:secant-general": {
+    "label": "eq:secant-general",
+    "type": "eq",
+    "number": "56",
+    "page": 39,
+    "title": "Secant bound",
+    "file": ".bak-before-deletion.tex",
+    "line": 1703
+  },
+  "sec:bias-rate-coupling": {
+    "label": "sec:bias-rate-coupling",
+    "type": "sec",
+    "number": "D.0.3",
+    "page": 39,
+    "title": "Bias bound via the compound offset",
+    "file": ".bak-before-deletion.tex",
+    "line": 1736
+  },
+  "eq:lagrangian-equality": {
+    "label": "eq:lagrangian-equality",
+    "type": "eq",
+    "number": "57",
+    "page": 39,
+    "title": "Bias bound via the compound offset",
+    "file": ".bak-before-deletion.tex",
+    "line": 1786
+  },
+  "sec:penalty-bias": {
+    "label": "sec:penalty-bias",
+    "type": "sec",
+    "number": "D.1",
+    "page": 40,
+    "title": "Penalty bias",
+    "file": ".bak-before-deletion.tex",
+    "line": 1861
+  },
+  "eq:comparison-bound": {
+    "label": "eq:comparison-bound",
+    "type": "eq",
+    "number": "58",
+    "page": 40,
+    "title": "The comparison bound",
+    "file": ".bak-before-deletion.tex",
+    "line": 1909
+  },
+  "prop:kkt-dual-norm": {
+    "label": "prop:kkt-dual-norm",
+    "type": "prop",
+    "number": "D.7",
+    "page": 40,
+    "title": "KKT dual-norm bias bound",
+    "file": ".bak-before-deletion.tex",
+    "line": 1947
+  },
+  "eq:kkt-dual-norm": {
+    "label": "eq:kkt-dual-norm",
+    "type": "eq",
+    "number": "59",
+    "page": 40,
+    "title": "KKT dual-norm bias bound",
+    "file": ".bak-before-deletion.tex",
+    "line": 1952
+  },
+  "eq:kkt-foc": {
+    "label": "eq:kkt-foc",
+    "type": "eq",
+    "number": "60",
+    "page": 40,
+    "title": "The comparison bound",
+    "file": ".bak-before-deletion.tex",
+    "line": 1967
+  },
+  "sec:uniform-lower-bounds": {
+    "label": "sec:uniform-lower-bounds",
+    "type": "sec",
+    "number": "E",
+    "page": 41,
+    "title": "Uniform Lower Bounds for Bregman Divergences",
+    "file": ".bak-before-deletion.tex",
+    "line": 2155
+  },
+  "def:slb-general": {
+    "label": "def:slb-general",
+    "type": "def",
+    "number": "E.1",
+    "page": 41,
+    "title": "Stable lower bound for nonnegative functions",
+    "file": ".bak-before-deletion.tex",
+    "line": 2167
+  },
+  "lem:bregman-shell": {
+    "label": "lem:bregman-shell",
+    "type": "lem",
+    "number": "E.1",
+    "page": 41,
+    "title": "Bregman ULB on a single sphere",
+    "file": ".bak-before-deletion.tex",
+    "line": 2185
+  },
+  "eq:truncation-lower": {
+    "label": "eq:truncation-lower",
+    "type": "eq",
+    "number": "61",
+    "page": 42,
+    "title": "Proof outline",
+    "file": ".bak-before-deletion.tex",
+    "line": 2285
+  },
+  "eq:truncation-upper": {
+    "label": "eq:truncation-upper",
+    "type": "eq",
+    "number": "62",
+    "page": 43,
+    "title": "Proof outline",
+    "file": ".bak-before-deletion.tex",
+    "line": 2306
+  },
+  "eq:drop-J": {
+    "label": "eq:drop-J",
+    "type": "eq",
+    "number": "63",
+    "page": 43,
+    "title": "Proof outline",
+    "file": ".bak-before-deletion.tex",
+    "line": 2320
+  },
+  "eq:decomp-Jc": {
+    "label": "eq:decomp-Jc",
+    "type": "eq",
+    "number": "64",
+    "page": 43,
+    "title": "Proof outline",
+    "file": ".bak-before-deletion.tex",
+    "line": 2324
+  },
+  "eq:net-Jc": {
+    "label": "eq:net-Jc",
+    "type": "eq",
+    "number": "65",
+    "page": 43,
+    "title": "Proof outline",
+    "file": ".bak-before-deletion.tex",
+    "line": 2336
+  },
+  "eq:mean-bound": {
+    "label": "eq:mean-bound",
+    "type": "eq",
+    "number": "66",
+    "page": 44,
+    "title": "Proof outline",
+    "file": ".bak-before-deletion.tex",
+    "line": 2376
+  },
+  "eq:fluctuation-cheb": {
+    "label": "eq:fluctuation-cheb",
+    "type": "eq",
+    "number": "67",
+    "page": 45,
+    "title": "Proof outline",
+    "file": ".bak-before-deletion.tex",
+    "line": 2404
+  },
+  "eq:extension-bound": {
+    "label": "eq:extension-bound",
+    "type": "eq",
+    "number": "68",
+    "page": 45,
+    "title": "Proof outline",
+    "file": ".bak-before-deletion.tex",
+    "line": 2433
+  },
+  "cor:alt-conditions": {
+    "label": "cor:alt-conditions",
+    "type": "cor",
+    "number": "E.2",
+    "page": 45,
+    "title": "Alternative conditions",
+    "file": ".bak-before-deletion.tex",
+    "line": 2455
+  },
+  "lem:slb-bounded": {
+    "label": "lem:slb-bounded",
+    "type": "lem",
+    "number": "E.3",
+    "page": 46,
+    "title": "Bounded functions; \\citealt {mendelson2021extending",
+    "file": ".bak-before-deletion.tex",
+    "line": 2515
+  },
+  "sec:tame-bregman": {
+    "label": "sec:tame-bregman",
+    "type": "sec",
+    "number": "E.3.1",
+    "page": 46,
+    "title": "PSC dispersions via the tame Bregman",
+    "file": ".bak-before-deletion.tex",
+    "line": 2536
+  },
+  "cor:ulb-tame": {
+    "label": "cor:ulb-tame",
+    "type": "cor",
+    "number": "E.4",
+    "page": 47,
+    "title": "PSC dispersions: tame Bregman sphere conditions",
+    "file": ".bak-before-deletion.tex",
+    "line": 2547
+  },
+  "lem:two-pile": {
+    "label": "lem:two-pile",
+    "type": "lem",
+    "number": "E.5",
+    "page": 47,
+    "title": "Two-pile SLB transfer",
+    "file": ".bak-before-deletion.tex",
+    "line": 2682
+  },
+  "eq:junction-error": {
+    "label": "eq:junction-error",
+    "type": "eq",
+    "number": "68",
+    "page": 47,
+    "title": "Two-pile SLB transfer",
+    "file": ".bak-before-deletion.tex",
+    "line": 2688
+  },
+  "eq:junction-population": {
+    "label": "eq:junction-population",
+    "type": "eq",
+    "number": "69",
+    "page": 48,
+    "title": "Quadratic and positive-part quadratic",
+    "file": ".bak-before-deletion.tex",
+    "line": 2724
+  },
+  "lem:dead-zone-concentration": {
+    "label": "lem:dead-zone-concentration",
+    "type": "lem",
+    "number": "E.6",
+    "page": 48,
+    "title": "Dead-zone concentration",
+    "file": ".bak-before-deletion.tex",
+    "line": 2733
+  },
+  "eq:two-pile-tolerance": {
+    "label": "eq:two-pile-tolerance",
+    "type": "eq",
+    "number": "70",
+    "page": 48,
+    "title": "Quadratic and positive-part quadratic",
+    "file": ".bak-before-deletion.tex",
+    "line": 2763
+  },
+  "cor:two-pile-polynomial": {
+    "label": "cor:two-pile-polynomial",
+    "type": "cor",
+    "number": "E.7",
+    "page": 48,
+    "title": "Polynomial density control",
+    "file": ".bak-before-deletion.tex",
+    "line": 2772
+  },
+  "prop:anticonc-sobolev": {
+    "label": "prop:anticonc-sobolev",
+    "type": "prop",
+    "number": "E.8",
+    "page": 48,
+    "title": "Density control via Bregman divergence",
+    "file": ".bak-before-deletion.tex",
+    "line": 2796
+  },
+  "eq:density-control-bound": {
+    "label": "eq:density-control-bound",
+    "type": "eq",
+    "number": "71",
+    "page": 48,
+    "title": "Density control via Bregman divergence",
+    "file": ".bak-before-deletion.tex",
+    "line": 2798
+  },
+  "sec:ulb-application-proofs": {
+    "label": "sec:ulb-application-proofs",
+    "type": "sec",
+    "number": "E.3.3",
+    "page": 49,
+    "title": "Proofs of application corollaries",
+    "file": ".bak-before-deletion.tex",
+    "line": 2828
+  },
+  "sec:rates-offset": {
+    "label": "sec:rates-offset",
+    "type": "sec",
+    "number": "F",
+    "page": 50,
+    "title": "Rates and Offset Functions",
+    "file": ".bak-before-deletion.tex",
+    "line": 2954
+  },
+  "eq:loss-diff-offset": {
+    "label": "eq:loss-diff-offset",
+    "type": "eq",
+    "number": "72",
+    "page": 51,
+    "title": "The offset function",
+    "file": ".bak-before-deletion.tex",
+    "line": 3045
+  },
+  "eq:offset-function": {
+    "label": "eq:offset-function",
+    "type": "eq",
+    "number": "73",
+    "page": 51,
+    "title": "The offset function",
+    "file": ".bak-before-deletion.tex",
+    "line": 3062
+  },
+  "thm:offset-rate": {
+    "label": "thm:offset-rate",
+    "type": "thm",
+    "number": "F.1",
+    "page": 51,
+    "title": "Rate bound",
+    "file": ".bak-before-deletion.tex",
+    "line": 3072
+  },
+  "sec:curvature-free-upper": {
+    "label": "sec:curvature-free-upper",
+    "type": "sec",
+    "number": "F.2",
+    "page": 51,
+    "title": "The curvature-free upper bound",
+    "file": "bregman-lower-bound.tex",
+    "line": 2629
+  },
+  "lem:one-sided-bound": {
+    "label": "lem:one-sided-bound",
+    "type": "lem",
+    "number": "F.2",
+    "page": 51,
+    "title": "One-sided bound",
+    "file": "bregman-lower-bound.tex",
+    "line": 2639
+  },
+  "lem:psc-ulb": {
+    "label": "lem:psc-ulb",
+    "type": "lem",
+    "number": "F.3",
+    "page": 52,
+    "title": "PSC Bregman ULB",
+    "file": ".bak-before-deletion.tex",
+    "line": 3130
+  },
+  "eq:rademacher-ulb": {
+    "label": "eq:rademacher-ulb",
+    "type": "eq",
+    "number": "74",
+    "page": 52,
+    "title": "PSC Bregman ULB",
+    "file": ".bak-before-deletion.tex",
+    "line": 3133
+  },
+  "cor:rate-slb": {
+    "label": "cor:rate-slb",
+    "type": "cor",
+    "number": "F.4",
+    "page": 52,
+    "title": "Rate via SLB",
+    "file": ".bak-before-deletion.tex",
+    "line": 3183
+  },
+  "lem:modulus-variance": {
+    "label": "lem:modulus-variance",
+    "type": "lem",
+    "number": "F.5",
+    "page": 52,
+    "title": "Efron--Stein variance of the modulus",
+    "file": "bregman-lower-bound.tex",
+    "line": 2758
+  },
+  "cor:crossing-bound": {
+    "label": "cor:crossing-bound",
+    "type": "cor",
+    "number": "F.6",
+    "page": 53,
+    "title": "Crossing bound",
+    "file": "bregman-lower-bound.tex",
+    "line": 2794
+  },
+  "cor:crossing-offset": {
+    "label": "cor:crossing-offset",
+    "type": "cor",
+    "number": "F.7",
+    "page": 53,
+    "title": "Crossing through the offset complexity",
+    "file": "bregman-lower-bound.tex",
+    "line": 2820
+  },
+  "sec:curvature-refinement": {
+    "label": "sec:curvature-refinement",
+    "type": "sec",
+    "number": "F.3",
+    "page": 53,
+    "title": "The curvature refinement",
+    "file": "bregman-lower-bound.tex",
+    "line": 2837
+  },
+  "eq:population-offset": {
+    "label": "eq:population-offset",
+    "type": "eq",
+    "number": "75",
+    "page": 53,
+    "title": "The curvature refinement",
+    "file": ".bak-before-deletion.tex",
+    "line": 3238
+  },
+  "lem:offset-curvature": {
+    "label": "lem:offset-curvature",
+    "type": "lem",
+    "number": "F.8",
+    "page": 54,
+    "title": "Curvature of the offset function",
+    "file": "bregman-lower-bound.tex",
+    "line": 2891
+  },
+  "eq:offset-curvature": {
+    "label": "eq:offset-curvature",
+    "type": "eq",
+    "number": "76",
+    "page": 54,
+    "title": "Curvature of the offset function",
+    "file": "bregman-lower-bound.tex",
+    "line": 2894
+  },
+  "eq:offset-curvature-smallball": {
+    "label": "eq:offset-curvature-smallball",
+    "type": "eq",
+    "number": "77",
+    "page": 54,
+    "title": "Curvature of the offset function",
+    "file": "bregman-lower-bound.tex",
+    "line": 2900
+  },
+  "eq:offset-curv-recip": {
+    "label": "eq:offset-curv-recip",
+    "type": "eq",
+    "number": "78",
+    "page": 54,
+    "title": "The curvature refinement",
+    "file": "bregman-lower-bound.tex",
+    "line": 2920
+  },
+  "cor:offset-curvature-quadratic": {
+    "label": "cor:offset-curvature-quadratic",
+    "type": "cor",
+    "number": "F.9",
+    "page": 55,
+    "title": "Quadratic dispersion",
+    "file": "bregman-lower-bound.tex",
+    "line": 2959
+  },
+  "lem:concentration": {
+    "label": "lem:concentration",
+    "type": "lem",
+    "number": "F.10",
+    "page": 55,
+    "title": "Two-sided concentration of the tamed radius",
+    "file": ".bak-before-deletion.tex",
+    "line": 3254
+  },
+  "eq:curvature-gap": {
+    "label": "eq:curvature-gap",
+    "type": "eq",
+    "number": "79",
+    "page": 55,
+    "title": "Two-sided concentration of the tamed radius",
+    "file": ".bak-before-deletion.tex",
+    "line": 3259
+  },
+  "eq:two-sided-conc": {
+    "label": "eq:two-sided-conc",
+    "type": "eq",
+    "number": "80",
+    "page": 55,
+    "title": "Two-sided concentration of the tamed radius",
+    "file": ".bak-before-deletion.tex",
+    "line": 3264
+  },
+  "eq:gap-bracket": {
+    "label": "eq:gap-bracket",
+    "type": "eq",
+    "number": "81",
+    "page": 55,
+    "title": "The curvature refinement",
+    "file": ".bak-before-deletion.tex",
+    "line": 3288
+  },
+  "thm:error-radius": {
+    "label": "thm:error-radius",
+    "type": "thm",
+    "number": "F.11",
+    "page": 56,
+    "title": "Concentration of the error radius",
+    "file": ".bak-before-deletion.tex",
+    "line": 2973
+  },
+  "eq:curvature-main": {
+    "label": "eq:curvature-main",
+    "type": "eq",
+    "number": "82",
+    "page": 56,
+    "title": "Concentration of the error radius",
+    "file": ".bak-before-deletion.tex",
+    "line": 2979
+  },
+  "sec:penalty-reduction": {
+    "label": "sec:penalty-reduction",
+    "type": "sec",
+    "number": "F.4",
+    "page": 56,
+    "title": "Reduction of the penalty ball to the quadratic engine",
+    "file": "bregman-lower-bound.tex",
+    "line": 3110
+  },
+  "lem:bregman-chain-rule": {
+    "label": "lem:bregman-chain-rule",
+    "type": "lem",
+    "number": "F.12",
+    "page": 56,
+    "title": "Bregman chain rule",
+    "file": "bregman-lower-bound.tex",
+    "line": 3120
+  },
+  "lem:secant-lower-bound": {
+    "label": "lem:secant-lower-bound",
+    "type": "lem",
+    "number": "F.13",
+    "page": 56,
+    "title": "Secant lower bound",
+    "file": "bregman-lower-bound.tex",
+    "line": 3145
+  },
+  "prop:penalty-reduction": {
+    "label": "prop:penalty-reduction",
+    "type": "prop",
+    "number": "F.14",
+    "page": 57,
+    "title": "Penalty reduction",
+    "file": "bregman-lower-bound.tex",
+    "line": 3163
+  },
+  "sec:rate-of-convergence": {
+    "label": "sec:rate-of-convergence",
+    "type": "sec",
+    "number": "G",
+    "page": 57,
+    "title": "Multiplier Complexity and Penalty Bias in Wavelet Models",
+    "file": ".bak-before-deletion.tex",
+    "line": 3402
+  },
+  "subsec:wavelet-models": {
+    "label": "subsec:wavelet-models",
+    "type": "subsec",
+    "number": "G.1",
+    "page": 57,
+    "title": "The wavelet model",
+    "file": ".bak-before-deletion.tex",
+    "line": 3416
+  },
+  "eq:wavelet-seminorm": {
+    "label": "eq:wavelet-seminorm",
+    "type": "eq",
+    "number": "83",
+    "page": 57,
+    "title": "The wavelet model",
+    "file": ".bak-before-deletion.tex",
+    "line": 2002
+  },
+  "ass:basis": {
+    "label": "ass:basis",
+    "type": "ass",
+    "number": "G.1",
+    "page": 58,
+    "title": "Wavelet model",
+    "file": "bregman-lower-bound.tex",
+    "line": 3241
+  },
+  "lem:daubechies": {
+    "label": "lem:daubechies",
+    "type": "lem",
+    "number": "G.1",
+    "page": 58,
+    "title": "Compactly supported wavelets; \\citealt {daubechies1992ten",
+    "file": ".bak-before-deletion.tex",
+    "line": 3442
+  },
+  "ass:floor": {
+    "label": "ass:floor",
+    "type": "ass",
+    "number": "G.2",
+    "page": 58,
+    "title": "Curvature floor",
+    "file": "bregman-lower-bound.tex",
+    "line": 3290
+  },
+  "eq:infconv-cov": {
+    "label": "eq:infconv-cov",
+    "type": "eq",
+    "number": "84",
+    "page": 59,
+    "title": "Realization (Sobolev class)",
+    "file": ".bak-before-deletion.tex",
+    "line": 3486
+  },
+  "eq:infconv-lagrange": {
+    "label": "eq:infconv-lagrange",
+    "type": "eq",
+    "number": "85",
+    "page": 59,
+    "title": "Realization (Sobolev class)",
+    "file": ".bak-before-deletion.tex",
+    "line": 3491
+  },
+  "lem:Linfty-interpolation": {
+    "label": "lem:Linfty-interpolation",
+    "type": "lem",
+    "number": "G.2",
+    "page": 59,
+    "title": "$L_\\infty $ control via interpolation",
+    "file": ".bak-before-deletion.tex",
+    "line": 3571
+  },
+  "lem:bregman-localized-complexity": {
+    "label": "lem:bregman-localized-complexity",
+    "type": "lem",
+    "number": "G.3",
+    "page": 59,
+    "title": "Bregman-localized complexity bound",
+    "file": ".bak-before-deletion.tex",
+    "line": 3619
+  },
+  "eq:infconv-diag": {
+    "label": "eq:infconv-diag",
+    "type": "eq",
+    "number": "86",
+    "page": 61,
+    "title": "The general functional bound",
+    "file": ".bak-before-deletion.tex",
+    "line": 3744
+  },
+  "cor:blc-outcome": {
+    "label": "cor:blc-outcome",
+    "type": "cor",
+    "number": "G.4",
+    "page": 61,
+    "title": "Multiplier control for the outcome term",
+    "file": ".bak-before-deletion.tex",
+    "line": 3683
+  },
+  "lem:infconv-wall": {
+    "label": "lem:infconv-wall",
+    "type": "lem",
+    "number": "G.5",
+    "page": 61,
+    "title": "The dual noise stays off the wall",
+    "file": ".bak-before-deletion.tex",
+    "line": 3840
+  },
+  "lem:multiplier-complexity-lower": {
+    "label": "lem:multiplier-complexity-lower",
+    "type": "lem",
+    "number": "G.6",
+    "page": 63,
+    "title": "Multiplier complexity, lower bound",
+    "file": "bregman-lower-bound.tex",
+    "line": 3626
+  },
+  "eq:multiplier-complexity-lower": {
+    "label": "eq:multiplier-complexity-lower",
+    "type": "eq",
+    "number": "87",
+    "page": 63,
+    "title": "Multiplier complexity, lower bound",
+    "file": "bregman-lower-bound.tex",
+    "line": 3632
+  },
+  "lem:matching-bounds": {
+    "label": "lem:matching-bounds",
+    "type": "lem",
+    "number": "G.7",
+    "page": 64,
+    "title": "Matching local-complexity bounds",
+    "file": ".bak-before-deletion.tex",
+    "line": 3502
+  },
+  "cor:sobolev-main": {
+    "label": "cor:sobolev-main",
+    "type": "cor",
+    "number": "G.8",
+    "page": 64,
+    "title": "Rate and bias",
+    "file": ".bak-before-deletion.tex",
+    "line": 3529
+  },
+  "eq:sobolev-sample-size": {
+    "label": "eq:sobolev-sample-size",
+    "type": "eq",
+    "number": "88",
+    "page": 65,
+    "title": "Main results",
+    "file": ".bak-before-deletion.tex",
+    "line": 4010
+  },
+  "cor:sobolev-realization": {
+    "label": "cor:sobolev-realization",
+    "type": "cor",
+    "number": "G.9",
+    "page": 65,
+    "title": "Sobolev realization",
+    "file": ".bak-before-deletion.tex",
+    "line": 3552
+  },
+  "sec:penalty-bias-wavelet": {
+    "label": "sec:penalty-bias-wavelet",
+    "type": "sec",
+    "number": "G.5",
+    "page": 66,
+    "title": "Penalty bias in wavelet models",
+    "file": ".bak-before-deletion.tex",
+    "line": 1985
+  },
+  "eq:wavelet-dual": {
+    "label": "eq:wavelet-dual",
+    "type": "eq",
+    "number": "89",
+    "page": 66,
+    "title": "Penalty bias in wavelet models",
+    "file": ".bak-before-deletion.tex",
+    "line": 2018
+  },
+  "prop:penalty-bias-wavelet": {
+    "label": "prop:penalty-bias-wavelet",
+    "type": "prop",
+    "number": "G.10",
+    "page": 66,
+    "title": "Wavelet penalty bias",
+    "file": ".bak-before-deletion.tex",
+    "line": 2026
+  },
+  "eq:penalty-bias-wavelet": {
+    "label": "eq:penalty-bias-wavelet",
+    "type": "eq",
+    "number": "90",
+    "page": 66,
+    "title": "Wavelet penalty bias",
+    "file": ".bak-before-deletion.tex",
+    "line": 2032
+  },
+  "rem:penalty-bias-density": {
+    "label": "rem:penalty-bias-density",
+    "type": "rem",
+    "number": "G.2",
+    "page": 66,
+    "title": "Lebesgue wavelets and the density",
+    "file": ".bak-before-deletion.tex",
+    "line": 2059
+  },
+  "eq:sobolev-equivalence": {
+    "label": "eq:sobolev-equivalence",
+    "type": "eq",
+    "number": "91",
+    "page": 66,
+    "title": "Lebesgue wavelets and the density",
+    "file": "bregman-lower-bound.tex",
+    "line": 3945
+  },
+  "cor:penalty-bias-source": {
+    "label": "cor:penalty-bias-source",
+    "type": "cor",
+    "number": "G.11",
+    "page": 66,
+    "title": "Source condition",
+    "file": ".bak-before-deletion.tex",
+    "line": 2086
+  },
+  "eq:penalty-bias-source": {
+    "label": "eq:penalty-bias-source",
+    "type": "eq",
+    "number": "92",
+    "page": 67,
+    "title": "Source condition",
+    "file": ".bak-before-deletion.tex",
+    "line": 2100
+  },
+  "sec:asymptotics": {
+    "label": "sec:asymptotics",
+    "type": "sec",
+    "number": "H",
+    "page": 67,
+    "title": "Asymptotics",
+    "file": ".bak-before-deletion.tex",
+    "line": 4054
+  },
+  "subsec:abstract-conditions": {
+    "label": "subsec:abstract-conditions",
+    "type": "subsec",
+    "number": "H.1",
+    "page": 67,
+    "title": "Abstract conditions",
+    "file": ".bak-before-deletion.tex",
+    "line": 4057
+  },
+  "eq:regularized-influence": {
+    "label": "eq:regularized-influence",
+    "type": "eq",
+    "number": "93",
+    "page": 67,
+    "title": "Regularized influence function",
+    "file": ".bak-before-deletion.tex",
+    "line": 4066
+  },
+  "eq:tilde-sigma": {
+    "label": "eq:tilde-sigma",
+    "type": "eq",
+    "number": "94",
+    "page": 67,
+    "title": "Regularized influence function",
+    "file": ".bak-before-deletion.tex",
+    "line": 4075
+  },
+  "eq:uniform-integrability": {
+    "label": "eq:uniform-integrability",
+    "type": "eq",
+    "number": "95",
+    "page": 67,
+    "title": "Background assumptions",
+    "file": ".bak-before-deletion.tex",
+    "line": 4091
+  },
+  "thm:asymptotic-normality": {
+    "label": "thm:asymptotic-normality",
+    "type": "thm",
+    "number": "H.1",
+    "page": 67,
+    "title": "Asymptotic normality",
+    "file": ".bak-before-deletion.tex",
+    "line": 4104
+  },
+  "cond:an-balance": {
+    "label": "cond:an-balance",
+    "type": "cond",
+    "number": "96",
+    "page": 68,
+    "title": "Asymptotic normality",
+    "file": ".bak-before-deletion.tex",
+    "line": 4112
+  },
+  "cond:an-inf-weights": {
+    "label": "cond:an-inf-weights",
+    "type": "cond",
+    "number": "97",
+    "page": 68,
+    "title": "Asymptotic normality",
+    "file": ".bak-before-deletion.tex",
+    "line": 4117
+  },
+  "cond:variance-equiv": {
+    "label": "cond:variance-equiv",
+    "type": "cond",
+    "number": "98",
+    "page": 68,
+    "title": "Asymptotic normality",
+    "file": ".bak-before-deletion.tex",
+    "line": 4121
+  },
+  "cond:coherence": {
+    "label": "cond:coherence",
+    "type": "cond",
+    "number": "99",
+    "page": 68,
+    "title": "Asymptotic normality",
+    "file": ".bak-before-deletion.tex",
+    "line": 4125
+  },
+  "cond:centering": {
+    "label": "cond:centering",
+    "type": "cond",
+    "number": "100",
+    "page": 68,
+    "title": "Asymptotic normality",
+    "file": ".bak-before-deletion.tex",
+    "line": 4132
+  },
+  "cond:stability": {
+    "label": "cond:stability",
+    "type": "cond",
+    "number": "101",
+    "page": 68,
+    "title": "Asymptotic normality",
+    "file": ".bak-before-deletion.tex",
+    "line": 4136
+  },
+  "cond:linearization": {
+    "label": "cond:linearization",
+    "type": "cond",
+    "number": "102",
+    "page": 68,
+    "title": "Asymptotic normality",
+    "file": ".bak-before-deletion.tex",
+    "line": 4140
+  },
+  "lem:variance-equiv": {
+    "label": "lem:variance-equiv",
+    "type": "lem",
+    "number": "H.2",
+    "page": 68,
+    "title": "Variance equivalence",
+    "file": ".bak-before-deletion.tex",
+    "line": 4174
+  },
+  "eq:variance-equiv-bound": {
+    "label": "eq:variance-equiv-bound",
+    "type": "eq",
+    "number": "103",
+    "page": 68,
+    "title": "Variance equivalence",
+    "file": ".bak-before-deletion.tex",
+    "line": 4181
+  },
+  "eq:gamma-sq-ftc": {
+    "label": "eq:gamma-sq-ftc",
+    "type": "eq",
+    "number": "104",
+    "page": 68,
+    "title": "Background assumptions",
+    "file": ".bak-before-deletion.tex",
+    "line": 4202
+  },
+  "prop:variance-consistency": {
+    "label": "prop:variance-consistency",
+    "type": "prop",
+    "number": "H.3",
+    "page": 68,
+    "title": "Variance consistency",
+    "file": ".bak-before-deletion.tex",
+    "line": 4220
+  },
+  "eq:influence-function": {
+    "label": "eq:influence-function",
+    "type": "eq",
+    "number": "105",
+    "page": 69,
+    "title": "Efficiency",
+    "file": ".bak-before-deletion.tex",
+    "line": 4240
+  },
+  "cor:efficient-variance": {
+    "label": "cor:efficient-variance",
+    "type": "cor",
+    "number": "H.4",
+    "page": 69,
+    "title": "Efficient variance",
+    "file": ".bak-before-deletion.tex",
+    "line": 4249
+  },
+  "lem:hall-heyde": {
+    "label": "lem:hall-heyde",
+    "type": "lem",
+    "number": "H.5",
+    "page": 69,
+    "title": "Martingale CLT; \\citealt {hall2014martingale",
+    "file": ".bak-before-deletion.tex",
+    "line": 4355
+  },
+  "eq:an-leading": {
+    "label": "eq:an-leading",
+    "type": "eq",
+    "number": "106",
+    "page": 70,
+    "title": "Proofs",
+    "file": ".bak-before-deletion.tex",
+    "line": 4435
+  },
+  "cor:outcome-estimator": {
+    "label": "cor:outcome-estimator",
+    "type": "cor",
+    "number": "H.6",
+    "page": 71,
+    "title": "Penalized least-squares outcome estimator",
+    "file": ".bak-before-deletion.tex",
+    "line": 4556
+  },
+  "eq:general-outcome": {
+    "label": "eq:general-outcome",
+    "type": "eq",
+    "number": "107",
+    "page": 71,
+    "title": "Penalized least-squares outcome estimator",
+    "file": ".bak-before-deletion.tex",
+    "line": 4559
+  },
+  "sec:sobolev-clt": {
+    "label": "sec:sobolev-clt",
+    "type": "sec",
+    "number": "I",
+    "page": 71,
+    "title": "The Sobolev CLT",
+    "file": ".bak-before-deletion.tex",
+    "line": 4616
+  },
+  "eq:foc-quadratic": {
+    "label": "eq:foc-quadratic",
+    "type": "eq",
+    "number": "108",
+    "page": 71,
+    "title": "The Sobolev CLT",
+    "file": ".bak-before-deletion.tex",
+    "line": 4624
+  },
+  "thm:sobolev-clt": {
+    "label": "thm:sobolev-clt",
+    "type": "thm",
+    "number": "I.1",
+    "page": 72,
+    "title": "Sobolev CLT for penalized Bregman weights",
+    "file": ".bak-before-deletion.tex",
+    "line": 4639
+  },
+  "eq:sobolev-clt-window": {
+    "label": "eq:sobolev-clt-window",
+    "type": "eq",
+    "number": "109",
+    "page": 72,
+    "title": "Sobolev CLT for penalized Bregman weights",
+    "file": ".bak-before-deletion.tex",
+    "line": 4674
+  },
+  "prop:outcome-clt-condition": {
+    "label": "prop:outcome-clt-condition",
+    "type": "prop",
+    "number": "I.2",
+    "page": 73,
+    "title": "Double-robust tuning for the outcome estimator",
+    "file": ".bak-before-deletion.tex",
+    "line": 4735
+  },
+  "eq:outcome-clt-condition": {
+    "label": "eq:outcome-clt-condition",
+    "type": "eq",
+    "number": "110",
+    "page": 73,
+    "title": "Double-robust tuning for the outcome estimator",
+    "file": ".bak-before-deletion.tex",
+    "line": 4743
+  },
+  "eq:outcome-dr-condition": {
+    "label": "eq:outcome-dr-condition",
+    "type": "eq",
+    "number": "111",
+    "page": 73,
+    "title": "Double-robust tuning for the outcome estimator",
+    "file": ".bak-before-deletion.tex",
+    "line": 4747
+  },
+  "eq:dr-split": {
+    "label": "eq:dr-split",
+    "type": "eq",
+    "number": "112",
+    "page": 73,
+    "title": "The Sobolev CLT",
+    "file": ".bak-before-deletion.tex",
+    "line": 4761
+  },
+  "eq:dr-weight-rates": {
+    "label": "eq:dr-weight-rates",
+    "type": "eq",
+    "number": "113",
+    "page": 73,
+    "title": "The Sobolev CLT",
+    "file": ".bak-before-deletion.tex",
+    "line": 4771
+  },
+  "eq:dr-weight-l2": {
+    "label": "eq:dr-weight-l2",
+    "type": "eq",
+    "number": "114",
+    "page": 73,
+    "title": "The Sobolev CLT",
+    "file": ".bak-before-deletion.tex",
+    "line": 4779
+  },
+  "eq:dr-outcome-rates": {
+    "label": "eq:dr-outcome-rates",
+    "type": "eq",
+    "number": "115",
+    "page": 73,
+    "title": "The Sobolev CLT",
+    "file": ".bak-before-deletion.tex",
+    "line": 4785
+  },
+  "eq:dr-smooth": {
+    "label": "eq:dr-smooth",
+    "type": "eq",
+    "number": "116",
+    "page": 73,
+    "title": "The Sobolev CLT",
+    "file": ".bak-before-deletion.tex",
+    "line": 4817
+  },
+  "rem:double-robustness": {
+    "label": "rem:double-robustness",
+    "type": "rem",
+    "number": "I.1",
+    "page": 74,
+    "title": "Double robustness",
+    "file": ".bak-before-deletion.tex",
+    "line": 4837
+  },
+  "sec:applications": {
+    "label": "sec:applications",
+    "type": "sec",
+    "number": "J",
+    "page": 74,
+    "title": "Applications",
+    "file": ".bak-before-deletion.tex",
+    "line": 4849
+  },
+  "sec:app-tsm": {
+    "label": "sec:app-tsm",
+    "type": "sec",
+    "number": "J.1",
+    "page": 74,
+    "title": "Treatment-specific mean",
+    "file": ".bak-before-deletion.tex",
+    "line": 4856
+  },
+  "eq:tsm-outcome": {
+    "label": "eq:tsm-outcome",
+    "type": "eq",
+    "number": "117",
+    "page": 74,
+    "title": "Outcome estimator",
+    "file": ".bak-before-deletion.tex",
+    "line": 4880
+  },
+  "cor:tsm": {
+    "label": "cor:tsm",
+    "type": "cor",
+    "number": "J.1",
+    "page": 74,
+    "title": "Treatment-specific mean",
+    "file": ".bak-before-deletion.tex",
+    "line": 4901
+  },
+  "sec:app-regression": {
+    "label": "sec:app-regression",
+    "type": "sec",
+    "number": "J.2",
+    "page": 75,
+    "title": "Average linear regression",
+    "file": ".bak-before-deletion.tex",
+    "line": 4946
+  },
+  "eq:regression-penalty": {
+    "label": "eq:regression-penalty",
+    "type": "eq",
+    "number": "118",
+    "page": 75,
+    "title": "Penalty",
+    "file": ".bak-before-deletion.tex",
+    "line": 4990
+  },
+  "eq:regression-outcome": {
+    "label": "eq:regression-outcome",
+    "type": "eq",
+    "number": "119",
+    "page": 75,
+    "title": "Outcome estimator",
+    "file": ".bak-before-deletion.tex",
+    "line": 5025
+  },
+  "cor:regression": {
+    "label": "cor:regression",
+    "type": "cor",
+    "number": "J.2",
+    "page": 75,
+    "title": "Average linear regression",
+    "file": ".bak-before-deletion.tex",
+    "line": 5049
+  },
+  "sec:app-vcate": {
+    "label": "sec:app-vcate",
+    "type": "sec",
+    "number": "J.3",
+    "page": 76,
+    "title": "Variance of the CATE",
+    "file": ".bak-before-deletion.tex",
+    "line": 5089
+  },
+  "eq:vcate-outcome": {
+    "label": "eq:vcate-outcome",
+    "type": "eq",
+    "number": "120",
+    "page": 76,
+    "title": "Outcome estimator",
+    "file": ".bak-before-deletion.tex",
+    "line": 5130
+  },
+  "eq:vcate-outcome-rate": {
+    "label": "eq:vcate-outcome-rate",
+    "type": "eq",
+    "number": "121",
+    "page": 76,
+    "title": "Outcome estimator",
+    "file": ".bak-before-deletion.tex",
+    "line": 5140
+  },
+  "eq:vcate-cate-rate": {
+    "label": "eq:vcate-cate-rate",
+    "type": "eq",
+    "number": "122",
+    "page": 76,
+    "title": "Outcome estimator",
+    "file": ".bak-before-deletion.tex",
+    "line": 5145
+  },
+  "eq:vcate-outcome-window": {
+    "label": "eq:vcate-outcome-window",
+    "type": "eq",
+    "number": "123",
+    "page": 76,
+    "title": "Outcome estimator",
+    "file": ".bak-before-deletion.tex",
+    "line": 5150
+  },
+  "cor:vcate": {
+    "label": "cor:vcate",
+    "type": "cor",
+    "number": "J.3",
+    "page": 76,
+    "title": "Variance of the CATE",
+    "file": ".bak-before-deletion.tex",
+    "line": 5179
+  }
+}

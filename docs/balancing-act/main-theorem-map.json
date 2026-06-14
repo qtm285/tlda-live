@@ -1,0 +1,1341 @@
+{
+  "sec:intro": {
+    "label": "sec:intro",
+    "type": "sec",
+    "number": "1",
+    "page": 2,
+    "title": "Introduction",
+    "file": "main.tex",
+    "line": 340
+  },
+  "sec:framework": {
+    "label": "sec:framework",
+    "type": "sec",
+    "number": "2",
+    "page": 2,
+    "title": "Framework",
+    "file": "main.tex",
+    "line": 410
+  },
+  "eq:pate": {
+    "label": "eq:pate",
+    "type": "eq",
+    "number": "1",
+    "page": 2,
+    "title": "Setup",
+    "file": "main.tex",
+    "line": 423
+  },
+  "a:ignore": {
+    "label": "a:ignore",
+    "type": "a",
+    "number": "1",
+    "page": 3,
+    "title": "Ignorability",
+    "file": "main.tex",
+    "line": 431
+  },
+  "a:overlap": {
+    "label": "a:overlap",
+    "type": "a",
+    "number": "2",
+    "page": 3,
+    "title": "Overlap",
+    "file": "main.tex",
+    "line": 436
+  },
+  "eq_identification": {
+    "label": "eq_identification",
+    "type": "label",
+    "number": "2",
+    "page": 3,
+    "title": "Setup",
+    "file": "main.tex",
+    "line": 442
+  },
+  "sec:true_ipw": {
+    "label": "sec:true_ipw",
+    "type": "sec",
+    "number": "2.2",
+    "page": 3,
+    "title": "Inverse propensity weighting",
+    "file": "main.tex",
+    "line": 460
+  },
+  "eq_mipw-identity": {
+    "label": "eq_mipw-identity",
+    "type": "label",
+    "number": "3",
+    "page": 3,
+    "title": "Inverse propensity weighting",
+    "file": "main.tex",
+    "line": 464
+  },
+  "eq_mipw-balance": {
+    "label": "eq_mipw-balance",
+    "type": "label",
+    "number": "4",
+    "page": 3,
+    "title": "Inverse propensity weighting",
+    "file": "main.tex",
+    "line": 472
+  },
+  "eq_mipw-sample-balance": {
+    "label": "eq_mipw-sample-balance",
+    "type": "label",
+    "number": "5",
+    "page": 3,
+    "title": "Inverse propensity weighting",
+    "file": "main.tex",
+    "line": 480
+  },
+  "eq_general_ipw": {
+    "label": "eq_general_ipw",
+    "type": "label",
+    "number": "6",
+    "page": 3,
+    "title": "Imbalance and estimation error",
+    "file": "main.tex",
+    "line": 497
+  },
+  "eq:weights_error": {
+    "label": "eq:weights_error",
+    "type": "eq",
+    "number": "7",
+    "page": 4,
+    "title": "Imbalance and estimation error",
+    "file": "main.tex",
+    "line": 503
+  },
+  "eq:bias": {
+    "label": "eq:bias",
+    "type": "eq",
+    "number": "8",
+    "page": 4,
+    "title": "Imbalance and estimation error",
+    "file": "main.tex",
+    "line": 520
+  },
+  "sec:aipw": {
+    "label": "sec:aipw",
+    "type": "sec",
+    "number": "2.4",
+    "page": 4,
+    "title": "Augmented Inverse Propensity Weighting",
+    "file": "main.tex",
+    "line": 537
+  },
+  "eq:aipw2": {
+    "label": "eq:aipw2",
+    "type": "eq",
+    "number": "9",
+    "page": 4,
+    "title": "Augmented Inverse Propensity Weighting",
+    "file": "main.tex",
+    "line": 543
+  },
+  "eq:aipw2-imputation": {
+    "label": "eq:aipw2-imputation",
+    "type": "eq",
+    "number": "10",
+    "page": 4,
+    "title": "Augmented Inverse Propensity Weighting",
+    "file": "main.tex",
+    "line": 544
+  },
+  "eq:weights_error_aug": {
+    "label": "eq:weights_error_aug",
+    "type": "eq",
+    "number": "11",
+    "page": 4,
+    "title": "Augmented Inverse Propensity Weighting",
+    "file": "main.tex",
+    "line": 553
+  },
+  "remark:tmle": {
+    "label": "remark:tmle",
+    "type": "remark",
+    "number": "1",
+    "page": 5,
+    "title": "",
+    "file": "main.tex",
+    "line": 567
+  },
+  "sec:ipw": {
+    "label": "sec:ipw",
+    "type": "sec",
+    "number": "3",
+    "page": 5,
+    "title": "Estimating inverse propensity score weights",
+    "file": "main.tex",
+    "line": 491
+  },
+  "sec:mipw": {
+    "label": "sec:mipw",
+    "type": "sec",
+    "number": "3.1",
+    "page": 5,
+    "title": "Modeling approach to weighting",
+    "file": "main.tex",
+    "line": 595
+  },
+  "sec:bal_weights_intro": {
+    "label": "sec:bal_weights_intro",
+    "type": "sec",
+    "number": "3.2",
+    "page": 6,
+    "title": "Balancing approach to weighting",
+    "file": "main.tex",
+    "line": 615
+  },
+  "eq_balancing-weights": {
+    "label": "eq_balancing-weights",
+    "type": "label",
+    "number": "12",
+    "page": 6,
+    "title": "Balancing approach to weighting",
+    "file": "main.tex",
+    "line": 637
+  },
+  "eq_balancing-weights-general": {
+    "label": "eq_balancing-weights-general",
+    "type": "label",
+    "number": "13",
+    "page": 6,
+    "title": "Balancing approach to weighting",
+    "file": "main.tex",
+    "line": 643
+  },
+  "eq:sbw": {
+    "label": "eq:sbw",
+    "type": "eq",
+    "number": "14",
+    "page": 6,
+    "title": "Balancing approach to weighting",
+    "file": "main.tex",
+    "line": 651
+  },
+  "eq:dual_l2_penalized_regression": {
+    "label": "eq:dual_l2_penalized_regression",
+    "type": "eq",
+    "number": "15",
+    "page": 6,
+    "title": "Balancing approach to weighting",
+    "file": "main.tex",
+    "line": 662
+  },
+  "eq:dual-general": {
+    "label": "eq:dual-general",
+    "type": "eq",
+    "number": "16",
+    "page": 7,
+    "title": "Balancing approach to weighting",
+    "file": "main.tex",
+    "line": 689
+  },
+  "sec:asymptotic": {
+    "label": "sec:asymptotic",
+    "type": "sec",
+    "number": "4",
+    "page": 7,
+    "title": "Asymptotic behavior",
+    "file": "main.tex",
+    "line": 754
+  },
+  "proposition:clt": {
+    "label": "proposition:clt",
+    "type": "proposition",
+    "number": "4.1",
+    "page": 7,
+    "title": "",
+    "file": "main.tex",
+    "line": 780
+  },
+  "eq:asymptotic-linearity": {
+    "label": "eq:asymptotic-linearity",
+    "type": "eq",
+    "number": "17",
+    "page": 7,
+    "title": "",
+    "file": "main.tex",
+    "line": 784
+  },
+  "eq:asymptotic-normality": {
+    "label": "eq:asymptotic-normality",
+    "type": "eq",
+    "number": "18",
+    "page": 7,
+    "title": "",
+    "file": "main.tex",
+    "line": 789
+  },
+  "a:regular-overlap": {
+    "label": "a:regular-overlap",
+    "type": "a",
+    "number": "2$'$",
+    "page": 8,
+    "title": "Sufficient Overlap",
+    "file": "main.tex",
+    "line": 811
+  },
+  "def:nonparametric": {
+    "label": "def:nonparametric",
+    "type": "def",
+    "number": "1",
+    "page": 8,
+    "title": "Nonparametric model",
+    "file": "main.tex",
+    "line": 818
+  },
+  "def:weak-regularity": {
+    "label": "def:weak-regularity",
+    "type": "def",
+    "number": "2",
+    "page": 8,
+    "title": "Weak regularity",
+    "file": "main.tex",
+    "line": 825
+  },
+  "prop:efficiency-bound": {
+    "label": "prop:efficiency-bound",
+    "type": "prop",
+    "number": "4.1",
+    "page": 8,
+    "title": "Efficiency bound",
+    "file": "main.tex",
+    "line": 834
+  },
+  "eq:variance-decomp": {
+    "label": "eq:variance-decomp",
+    "type": "eq",
+    "number": "19",
+    "page": 8,
+    "title": "Asymptotic behavior",
+    "file": "main.tex",
+    "line": 841
+  },
+  "eq:cross-term-decomp": {
+    "label": "eq:cross-term-decomp",
+    "type": "eq",
+    "number": "20",
+    "page": 9,
+    "title": "Asymptotic behavior",
+    "file": "main.tex",
+    "line": 852
+  },
+  "prop:efficiency": {
+    "label": "prop:efficiency",
+    "type": "prop",
+    "number": "4.2",
+    "page": 9,
+    "title": "Efficiency",
+    "file": "main.tex",
+    "line": 863
+  },
+  "sec:balance_models": {
+    "label": "sec:balance_models",
+    "type": "sec",
+    "number": "5",
+    "page": 9,
+    "title": "Balance measures and models",
+    "file": "main.tex",
+    "line": 886
+  },
+  "sec:balancing-binary": {
+    "label": "sec:balancing-binary",
+    "type": "sec",
+    "number": "5.1",
+    "page": 9,
+    "title": "Balancing binary covariates",
+    "file": "main.tex",
+    "line": 903
+  },
+  "sec_balancing_marginally": {
+    "label": "sec_balancing_marginally",
+    "type": "label",
+    "number": "5.1.1",
+    "page": 9,
+    "title": "Models with no interactions",
+    "file": "main.tex",
+    "line": 907
+  },
+  "eq:imbalance_margin_cat": {
+    "label": "eq:imbalance_margin_cat",
+    "type": "eq",
+    "number": "22",
+    "page": 10,
+    "title": "Models with no interactions",
+    "file": "main.tex",
+    "line": 927
+  },
+  "eq:bias_linear": {
+    "label": "eq:bias_linear",
+    "type": "eq",
+    "number": "23",
+    "page": 10,
+    "title": "Models with no interactions",
+    "file": "main.tex",
+    "line": 936
+  },
+  "eq:bias_basis": {
+    "label": "eq:bias_basis",
+    "type": "eq",
+    "number": "24",
+    "page": 10,
+    "title": "Models with no interactions",
+    "file": "main.tex",
+    "line": 953
+  },
+  "sec_balancing_all": {
+    "label": "sec_balancing_all",
+    "type": "label",
+    "number": "5.1.2",
+    "page": 10,
+    "title": "Models with strong interactions",
+    "file": "main.tex",
+    "line": 961
+  },
+  "eq:bias_interactions": {
+    "label": "eq:bias_interactions",
+    "type": "eq",
+    "number": "25",
+    "page": 10,
+    "title": "Models with strong interactions",
+    "file": "main.tex",
+    "line": 969
+  },
+  "eq:imbalance_interact": {
+    "label": "eq:imbalance_interact",
+    "type": "eq",
+    "number": "26",
+    "page": 11,
+    "title": "Models with strong interactions",
+    "file": "main.tex",
+    "line": 975
+  },
+  "eq:binary-rkhs": {
+    "label": "eq:binary-rkhs",
+    "type": "eq",
+    "number": "27",
+    "page": 11,
+    "title": "Models with weak interactions",
+    "file": "main.tex",
+    "line": 1009
+  },
+  "sec:balancing-continuous-covariates": {
+    "label": "sec:balancing-continuous-covariates",
+    "type": "sec",
+    "number": "5.2",
+    "page": 12,
+    "title": "Balancing continuous covariates",
+    "file": "main.tex",
+    "line": 1051
+  },
+  "eq:imbalance_phi_infinite": {
+    "label": "eq:imbalance_phi_infinite",
+    "type": "eq",
+    "number": "28",
+    "page": 12,
+    "title": "The basis expansion perspective",
+    "file": "main.tex",
+    "line": 1061
+  },
+  "sec:function-space-perspective": {
+    "label": "sec:function-space-perspective",
+    "type": "sec",
+    "number": "5.2.2",
+    "page": 12,
+    "title": "The function space perspective",
+    "file": "main.tex",
+    "line": 1077
+  },
+  "eq:sobolev-derivative": {
+    "label": "eq:sobolev-derivative",
+    "type": "eq",
+    "number": "29",
+    "page": 13,
+    "title": "The function space perspective",
+    "file": "main.tex",
+    "line": 1092
+  },
+  "eq:sobolev-fourier": {
+    "label": "eq:sobolev-fourier",
+    "type": "eq",
+    "number": "30",
+    "page": 13,
+    "title": "The function space perspective",
+    "file": "main.tex",
+    "line": 1093
+  },
+  "eq:ms-sobolev-derivative": {
+    "label": "eq:ms-sobolev-derivative",
+    "type": "eq",
+    "number": "31",
+    "page": 13,
+    "title": "The function space perspective",
+    "file": "main.tex",
+    "line": 1095
+  },
+  "eq:ms-sobolev-fourier": {
+    "label": "eq:ms-sobolev-fourier",
+    "type": "eq",
+    "number": "32",
+    "page": 13,
+    "title": "The function space perspective",
+    "file": "main.tex",
+    "line": 1096
+  },
+  "sec:translation-invariance": {
+    "label": "sec:translation-invariance",
+    "type": "sec",
+    "number": "2",
+    "page": 13,
+    "title": "Invariance and equivariance",
+    "file": "main.tex",
+    "line": 1130
+  },
+  "eq:sobolev-seminorm-derivative": {
+    "label": "eq:sobolev-seminorm-derivative",
+    "type": "eq",
+    "number": "33",
+    "page": 13,
+    "title": "Invariance and equivariance",
+    "file": "main.tex",
+    "line": 1148
+  },
+  "eq:sobolev-seminorm-fourier": {
+    "label": "eq:sobolev-seminorm-fourier",
+    "type": "eq",
+    "number": "34",
+    "page": 13,
+    "title": "Invariance and equivariance",
+    "file": "main.tex",
+    "line": 1149
+  },
+  "sec:other-considerations": {
+    "label": "sec:other-considerations",
+    "type": "sec",
+    "number": "5.3",
+    "page": 13,
+    "title": "Other considerations",
+    "file": "main.tex",
+    "line": 1154
+  },
+  "sec:trade-offs": {
+    "label": "sec:trade-offs",
+    "type": "sec",
+    "number": "6",
+    "page": 14,
+    "title": "Degree of balance",
+    "file": "main.tex",
+    "line": 1173
+  },
+  "sec:plugin": {
+    "label": "sec:plugin",
+    "type": "sec",
+    "number": "6.1",
+    "page": 14,
+    "title": "Comparing to the true inverse propensity weights",
+    "file": "main.tex",
+    "line": 1178
+  },
+  "eq_balancing-weights-comparison": {
+    "label": "eq_balancing-weights-comparison",
+    "type": "label",
+    "number": "35",
+    "page": 14,
+    "title": "Comparing to the true inverse propensity weights",
+    "file": "main.tex",
+    "line": 1184
+  },
+  "eq:ipw_linf_imbalance": {
+    "label": "eq:ipw_linf_imbalance",
+    "type": "eq",
+    "number": "36",
+    "page": 15,
+    "title": "Comparing to the true inverse propensity weights",
+    "file": "main.tex",
+    "line": 1193
+  },
+  "eq:ipw_gen_imbalance_symmetrized": {
+    "label": "eq:ipw_gen_imbalance_symmetrized",
+    "type": "eq",
+    "number": "37",
+    "page": 15,
+    "title": "Symmetrization and the connection to regression",
+    "file": "main.tex",
+    "line": 1203
+  },
+  "eq:symmetrization-bounds": {
+    "label": "eq:symmetrization-bounds",
+    "type": "eq",
+    "number": "38",
+    "page": 15,
+    "title": "Symmetrization and the connection to regression",
+    "file": "main.tex",
+    "line": 1211
+  },
+  "eq:loss-difference": {
+    "label": "eq:loss-difference",
+    "type": "eq",
+    "number": "39",
+    "page": 15,
+    "title": "Symmetrization and the connection to regression",
+    "file": "main.tex",
+    "line": 1220
+  },
+  "eq:least-squares-fixed-point": {
+    "label": "eq:least-squares-fixed-point",
+    "type": "eq",
+    "number": "40",
+    "page": 15,
+    "title": "Symmetrization and the connection to regression",
+    "file": "main.tex",
+    "line": 1228
+  },
+  "fig:width-geometry": {
+    "label": "fig:width-geometry",
+    "type": "fig",
+    "number": "1",
+    "page": 16,
+    "title": "Geometry of the fixed-point argument for two models: the regression model $\\model $ (blue, top row) and the IPW-reweighted model $\\model ^\\ipw $ (vermillion, middle row). Both rows show the same noise draw; the models differ only in the tube's slope and width, reflecting the coordinate-wise rescaling by propensity score factors. As the ball shrinks (right to left), the maximal noise correlation shrinks too---this is equicontinuity. But in most models---linear ones are an exception---it shrinks at a rate slower than the ball's radius does. What happens is that, as our ball gets smaller, it does more and more of the work in constraining $m-\\mu $. In the extreme case shown on the left, where the ball is contained in the model, the model is doing nothing at all. The bottom panel plots the expected maximal correlation (Gaussian width) as a function of the ball's radius $r$ against the curve $r^2/2$; the \\emph {fixed point",
+    "file": "main.tex",
+    "line": 1254
+  },
+  "eq:single_function_imbalance": {
+    "label": "eq:single_function_imbalance",
+    "type": "eq",
+    "number": "41",
+    "page": 17,
+    "title": "Why $O_p(n^{-1/2",
+    "file": "main.tex",
+    "line": 1263
+  },
+  "eq:least-squares-fixed-point-naive": {
+    "label": "eq:least-squares-fixed-point-naive",
+    "type": "eq",
+    "number": "42",
+    "page": 17,
+    "title": "Why $O_p(n^{-1/2",
+    "file": "main.tex",
+    "line": 1270
+  },
+  "sec:role-of-augmentation": {
+    "label": "sec:role-of-augmentation",
+    "type": "sec",
+    "number": "6.2",
+    "page": 17,
+    "title": "The role of augmentation",
+    "file": "main.tex",
+    "line": 1279
+  },
+  "sec:doing-better": {
+    "label": "sec:doing-better",
+    "type": "sec",
+    "number": "6.3",
+    "page": 18,
+    "title": "Doing Better than the True Weights",
+    "file": "main.tex",
+    "line": 1373
+  },
+  "eq:aipw-variance-true-weights": {
+    "label": "eq:aipw-variance-true-weights",
+    "type": "eq",
+    "number": "43",
+    "page": 18,
+    "title": "Doing Better than the True Weights",
+    "file": "main.tex",
+    "line": 1377
+  },
+  "eq:linearized-weights": {
+    "label": "eq:linearized-weights",
+    "type": "eq",
+    "number": "44",
+    "page": 19,
+    "title": "Doing Better than the True Weights",
+    "file": "main.tex",
+    "line": 1388
+  },
+  "eq:omega-def": {
+    "label": "eq:omega-def",
+    "type": "eq",
+    "number": "45",
+    "page": 19,
+    "title": "Doing Better than the True Weights",
+    "file": "main.tex",
+    "line": 1397
+  },
+  "eq:donoho-liu-bias": {
+    "label": "eq:donoho-liu-bias",
+    "type": "eq",
+    "number": "46",
+    "page": 19,
+    "title": "Doing Better than the True Weights",
+    "file": "main.tex",
+    "line": 1402
+  },
+  "eq:fixed-point": {
+    "label": "eq:fixed-point",
+    "type": "eq",
+    "number": "47",
+    "page": 19,
+    "title": "Doing Better than the True Weights",
+    "file": "main.tex",
+    "line": 1408
+  },
+  "eq:xi-def": {
+    "label": "eq:xi-def",
+    "type": "eq",
+    "number": "48",
+    "page": 19,
+    "title": "Doing Better than the True Weights",
+    "file": "main.tex",
+    "line": 1416
+  },
+  "eq:secant-bound": {
+    "label": "eq:secant-bound",
+    "type": "eq",
+    "number": "49",
+    "page": 20,
+    "title": "Doing Better than the True Weights",
+    "file": "main.tex",
+    "line": 1422
+  },
+  "fig:modulus": {
+    "label": "fig:modulus",
+    "type": "fig",
+    "number": "2",
+    "page": 20,
+    "title": "Geometry of the modulus argument. Solid curves show the modulus $\\omega $ (blue) and the centered offset complexity $\\xi $ (green). Both share the same tangent line (dashed red) at the operating point $\\hat u$, so the maximal imbalance $b$---the tangent intercept---is identical. The dot-dashed lines are secants from $\\hat u$ to $u_{\\max",
+    "file": "main.tex",
+    "line": 1432
+  },
+  "prop:bias-balance": {
+    "label": "prop:bias-balance",
+    "type": "prop",
+    "number": "6.1",
+    "page": 20,
+    "title": "Maximal imbalance of minimax balancing weights; \\citet {hirshberg2026bregman",
+    "file": "main.tex",
+    "line": 1437
+  },
+  "eq:imbalance-bound": {
+    "label": "eq:imbalance-bound",
+    "type": "eq",
+    "number": "50",
+    "page": 20,
+    "title": "Maximal imbalance of minimax balancing weights; \\citet {hirshberg2026bregman",
+    "file": "main.tex",
+    "line": 1440
+  },
+  "fig:insample-outsample": {
+    "label": "fig:insample-outsample",
+    "type": "fig",
+    "number": "3",
+    "page": 21,
+    "title": "\\textit {Left",
+    "file": "main.tex",
+    "line": 1455
+  },
+  "remark:augmentation-convex": {
+    "label": "remark:augmentation-convex",
+    "type": "remark",
+    "number": "3",
+    "page": 21,
+    "title": "Augmentation and convex models",
+    "file": "main.tex",
+    "line": 1463
+  },
+  "remark:undersmoothing": {
+    "label": "remark:undersmoothing",
+    "type": "remark",
+    "number": "4",
+    "page": 21,
+    "title": "Correct specification and the minimax tuning",
+    "file": "main.tex",
+    "line": 1468
+  },
+  "sec:inner-product": {
+    "label": "sec:inner-product",
+    "type": "sec",
+    "number": "6.4",
+    "page": 22,
+    "title": "The inner product perspective",
+    "file": "main.tex",
+    "line": 1473
+  },
+  "eq:aug_bias_dr": {
+    "label": "eq:aug_bias_dr",
+    "type": "eq",
+    "number": "51",
+    "page": 22,
+    "title": "The inner product perspective",
+    "file": "main.tex",
+    "line": 1477
+  },
+  "remark:regression-for-orthogonality": {
+    "label": "remark:regression-for-orthogonality",
+    "type": "remark",
+    "number": "5",
+    "page": 22,
+    "title": "Regression for orthogonality",
+    "file": "main.tex",
+    "line": 1487
+  },
+  "sec:other-estimands": {
+    "label": "sec:other-estimands",
+    "type": "sec",
+    "number": "7",
+    "page": 22,
+    "title": "Other estimands",
+    "file": "main.tex",
+    "line": 1494
+  },
+  "eq:targeted-ate": {
+    "label": "eq:targeted-ate",
+    "type": "eq",
+    "number": "53",
+    "page": 22,
+    "title": "Other estimands",
+    "file": "main.tex",
+    "line": 1505
+  },
+  "eq:amle-general": {
+    "label": "eq:amle-general",
+    "type": "eq",
+    "number": "54",
+    "page": 23,
+    "title": "Other estimands",
+    "file": "main.tex",
+    "line": 1510
+  },
+  "eq:riesz-representer-general": {
+    "label": "eq:riesz-representer-general",
+    "type": "eq",
+    "number": "55",
+    "page": 23,
+    "title": "Other estimands",
+    "file": "main.tex",
+    "line": 1515
+  },
+  "eq:generalizations": {
+    "label": "eq:generalizations",
+    "type": "eq",
+    "number": "56",
+    "page": 23,
+    "title": "Other estimands",
+    "file": "main.tex",
+    "line": 1541
+  },
+  "proposition:clt-general": {
+    "label": "proposition:clt-general",
+    "type": "proposition",
+    "number": "7.1",
+    "page": 23,
+    "title": "",
+    "file": "main.tex",
+    "line": 1548
+  },
+  "eq:asymptotic-linearity-amle": {
+    "label": "eq:asymptotic-linearity-amle",
+    "type": "eq",
+    "number": "57",
+    "page": 23,
+    "title": "",
+    "file": "main.tex",
+    "line": 1551
+  },
+  "eq:asymptotic-normality-amle": {
+    "label": "eq:asymptotic-normality-amle",
+    "type": "eq",
+    "number": "58",
+    "page": 23,
+    "title": "",
+    "file": "main.tex",
+    "line": 1556
+  },
+  "sec:matching": {
+    "label": "sec:matching",
+    "type": "sec",
+    "number": "8",
+    "page": 24,
+    "title": "Matching for Balance",
+    "file": "main.tex",
+    "line": 1586
+  },
+  "eq:att-imbalance": {
+    "label": "eq:att-imbalance",
+    "type": "eq",
+    "number": "59",
+    "page": 24,
+    "title": "Matching for Balance",
+    "file": "main.tex",
+    "line": 1597
+  },
+  "eq:bernoulli-rounding-variance": {
+    "label": "eq:bernoulli-rounding-variance",
+    "type": "eq",
+    "number": "60",
+    "page": 25,
+    "title": "Matching for Balance",
+    "file": "main.tex",
+    "line": 1611
+  },
+  "eq:rounding-variance-deterministic": {
+    "label": "eq:rounding-variance-deterministic",
+    "type": "eq",
+    "number": "61",
+    "page": 25,
+    "title": "Matching for Balance",
+    "file": "main.tex",
+    "line": 1619
+  },
+  "eq:rounding-excess": {
+    "label": "eq:rounding-excess",
+    "type": "eq",
+    "number": "62",
+    "page": 25,
+    "title": "Matching for Balance",
+    "file": "main.tex",
+    "line": 1626
+  },
+  "eq:round": {
+    "label": "eq:round",
+    "type": "eq",
+    "number": "63",
+    "page": 25,
+    "title": "Matching for Balance",
+    "file": "main.tex",
+    "line": 1636
+  },
+  "prop:rounding": {
+    "label": "prop:rounding",
+    "type": "prop",
+    "number": "8.1",
+    "page": 26,
+    "title": "",
+    "file": "main.tex",
+    "line": 1649
+  },
+  "eq:hdisc": {
+    "label": "eq:hdisc",
+    "type": "eq",
+    "number": "64",
+    "page": 26,
+    "title": "Matching for Balance",
+    "file": "main.tex",
+    "line": 1657
+  },
+  "eq:matching-cost": {
+    "label": "eq:matching-cost",
+    "type": "eq",
+    "number": "65",
+    "page": 26,
+    "title": "Matching for Balance",
+    "file": "main.tex",
+    "line": 1674
+  },
+  "prop:matching-cost": {
+    "label": "prop:matching-cost",
+    "type": "prop",
+    "number": "8.2",
+    "page": 26,
+    "title": "Lower bound",
+    "file": "main.tex",
+    "line": 1680
+  },
+  "prop:matching-achievable": {
+    "label": "prop:matching-achievable",
+    "type": "prop",
+    "number": "8.3",
+    "page": 27,
+    "title": "Achievability",
+    "file": "main.tex",
+    "line": 1685
+  },
+  "cor:rounding": {
+    "label": "cor:rounding",
+    "type": "cor",
+    "number": "8.4",
+    "page": 27,
+    "title": "",
+    "file": "main.tex",
+    "line": 1695
+  },
+  "eq:asymptotic-linearity-rounded": {
+    "label": "eq:asymptotic-linearity-rounded",
+    "type": "eq",
+    "number": "66",
+    "page": 27,
+    "title": "",
+    "file": "main.tex",
+    "line": 1700
+  },
+  "eq:asymptotic-normality-rounded": {
+    "label": "eq:asymptotic-normality-rounded",
+    "type": "eq",
+    "number": "67",
+    "page": 27,
+    "title": "",
+    "file": "main.tex",
+    "line": 1705
+  },
+  "rem:matching-variance": {
+    "label": "rem:matching-variance",
+    "type": "rem",
+    "number": "7",
+    "page": 27,
+    "title": "",
+    "file": "main.tex",
+    "line": 1712
+  },
+  "eq:integer-sbw": {
+    "label": "eq:integer-sbw",
+    "type": "eq",
+    "number": "68",
+    "page": 27,
+    "title": "Matching for Balance",
+    "file": "main.tex",
+    "line": 1735
+  },
+  "cor:integer-sbw": {
+    "label": "cor:integer-sbw",
+    "type": "cor",
+    "number": "8.5",
+    "page": 28,
+    "title": "",
+    "file": "main.tex",
+    "line": 1741
+  },
+  "refsection:1": {
+    "label": "refsection:1",
+    "type": "refsection",
+    "number": "8",
+    "page": 32,
+    "title": "Matching for Balance"
+  },
+  "app:modulus-equivalence": {
+    "label": "app:modulus-equivalence",
+    "type": "app",
+    "number": "A",
+    "page": 32,
+    "title": "Modulus of continuity: penalized and constrained forms",
+    "file": "main.tex",
+    "line": 1826
+  },
+  "eq:modulus-constrained": {
+    "label": "eq:modulus-constrained",
+    "type": "eq",
+    "number": "69",
+    "page": 32,
+    "title": "Modulus of continuity: penalized and constrained forms",
+    "file": "main.tex",
+    "line": 1830
+  },
+  "sec:appendix-asymptotic-normality": {
+    "label": "sec:appendix-asymptotic-normality",
+    "type": "sec",
+    "number": "B",
+    "page": 32,
+    "title": "Asymptotics",
+    "file": "main.tex",
+    "line": 1836
+  },
+  "proposition:appendix-clt-general": {
+    "label": "proposition:appendix-clt-general",
+    "type": "proposition",
+    "number": "B",
+    "page": 32,
+    "title": "Asymptotics",
+    "file": "main.tex",
+    "line": 1844
+  },
+  "eq:weighted-l2-consistency": {
+    "label": "eq:weighted-l2-consistency",
+    "type": "eq",
+    "number": "70",
+    "page": 32,
+    "title": "Asymptotics",
+    "file": "main.tex",
+    "line": 1848
+  },
+  "proposition:appendix-clt": {
+    "label": "proposition:appendix-clt",
+    "type": "proposition",
+    "number": "B",
+    "page": 32,
+    "title": "Asymptotics",
+    "file": "main.tex",
+    "line": 1860
+  },
+  "sec:appendix-weak-regularity": {
+    "label": "sec:appendix-weak-regularity",
+    "type": "sec",
+    "number": "B.1",
+    "page": 34,
+    "title": "Weak regularity and efficiency",
+    "file": "main.tex",
+    "line": 1923
+  },
+  "sec:more-on-models": {
+    "label": "sec:more-on-models",
+    "type": "sec",
+    "number": "C",
+    "page": 35,
+    "title": "More on Models",
+    "file": "main.tex",
+    "line": 1994
+  },
+  "sec:lq-models": {
+    "label": "sec:lq-models",
+    "type": "sec",
+    "number": "C.1",
+    "page": 35,
+    "title": "Models defined in terms of $\\ell _q$ and $L_q$ norms",
+    "file": "main.tex",
+    "line": 1998
+  },
+  "sec:variation-models": {
+    "label": "sec:variation-models",
+    "type": "sec",
+    "number": "C.2",
+    "page": 35,
+    "title": "Models defined in terms of variation norms",
+    "file": "main.tex",
+    "line": 2015
+  },
+  "sec:sobolev-spaces": {
+    "label": "sec:sobolev-spaces",
+    "type": "sec",
+    "number": "C.3",
+    "page": 36,
+    "title": "Sobolev and Reproducing Kernel Hilbert Spaces",
+    "file": "main.tex",
+    "line": 2025
+  },
+  "eq:imbalance_rkhs": {
+    "label": "eq:imbalance_rkhs",
+    "type": "eq",
+    "number": "71",
+    "page": 36,
+    "title": "Sobolev and Reproducing Kernel Hilbert Spaces",
+    "file": "main.tex",
+    "line": 2034
+  },
+  "sec:strong-norm-consistency": {
+    "label": "sec:strong-norm-consistency",
+    "type": "sec",
+    "number": "D",
+    "page": 36,
+    "title": "Augmentation and strong notions of convergence",
+    "file": "main.tex",
+    "line": 2048
+  },
+  "app:rounding": {
+    "label": "app:rounding",
+    "type": "app",
+    "number": "E",
+    "page": 37,
+    "title": "Rounding",
+    "file": "main.tex",
+    "line": 2073
+  },
+  "eq:discrepancy": {
+    "label": "eq:discrepancy",
+    "type": "eq",
+    "number": "72",
+    "page": 37,
+    "title": "Rounding and Imbalance",
+    "file": "main.tex",
+    "line": 2081
+  },
+  "eq:lindisc-hdisc": {
+    "label": "eq:lindisc-hdisc",
+    "type": "eq",
+    "number": "73",
+    "page": 37,
+    "title": "Rounding and Imbalance",
+    "file": "main.tex",
+    "line": 2094
+  },
+  "lemm:bdd_ent_class": {
+    "label": "lemm:bdd_ent_class",
+    "type": "lemm",
+    "number": "E.1",
+    "page": 37,
+    "title": "",
+    "file": "main.tex",
+    "line": 2119
+  },
+  "cor:hdisc-negligible": {
+    "label": "cor:hdisc-negligible",
+    "type": "cor",
+    "number": "E.2",
+    "page": 38,
+    "title": "",
+    "file": "main.tex",
+    "line": 2138
+  },
+  "lem:empirical-and-population-norm-equivalence": {
+    "label": "lem:empirical-and-population-norm-equivalence",
+    "type": "lem",
+    "number": "E.3",
+    "page": 38,
+    "title": "",
+    "file": "main.tex",
+    "line": 2151
+  },
+  "eq:rounding-one-step": {
+    "label": "eq:rounding-one-step",
+    "type": "eq",
+    "number": "74",
+    "page": 38,
+    "title": "Rounding and Imbalance",
+    "file": "main.tex",
+    "line": 2170
+  },
+  "eq:sum-over-stages-discrepancy-bound": {
+    "label": "eq:sum-over-stages-discrepancy-bound",
+    "type": "eq",
+    "number": "75",
+    "page": 39,
+    "title": "Rounding and Imbalance",
+    "file": "main.tex",
+    "line": 2186
+  },
+  "sec:rounding-and-efficiency": {
+    "label": "sec:rounding-and-efficiency",
+    "type": "sec",
+    "number": "E.2",
+    "page": 44,
+    "title": "Rounding and Efficiency",
+    "file": "main.tex",
+    "line": 2447
+  },
+  "eq:design-conditional-variance": {
+    "label": "eq:design-conditional-variance",
+    "type": "eq",
+    "number": "78",
+    "page": 44,
+    "title": "Rounding and Efficiency",
+    "file": "main.tex",
+    "line": 2451
+  },
+  "eq:rounding-error-functional": {
+    "label": "eq:rounding-error-functional",
+    "type": "eq",
+    "number": "79",
+    "page": 44,
+    "title": "Rounding and Efficiency",
+    "file": "main.tex",
+    "line": 2456
+  },
+  "def:regular-matching": {
+    "label": "def:regular-matching",
+    "type": "def",
+    "number": "3",
+    "page": 44,
+    "title": "",
+    "file": "main.tex",
+    "line": 2464
+  },
+  "lemm:cross-term": {
+    "label": "lemm:cross-term",
+    "type": "lemm",
+    "number": "E.4",
+    "page": 44,
+    "title": "Cross-term vanishing",
+    "file": "main.tex",
+    "line": 2472
+  },
+  "eq:cross-term-general": {
+    "label": "eq:cross-term-general",
+    "type": "eq",
+    "number": "80",
+    "page": 44,
+    "title": "Lower bound",
+    "file": "main.tex",
+    "line": 2482
+  },
+  "eq:integer-identity": {
+    "label": "eq:integer-identity",
+    "type": "eq",
+    "number": "81",
+    "page": 45,
+    "title": "Lower bound",
+    "file": "main.tex",
+    "line": 2490
+  },
+  "eq:integer-variance": {
+    "label": "eq:integer-variance",
+    "type": "eq",
+    "number": "82",
+    "page": 45,
+    "title": "Lower bound",
+    "file": "main.tex",
+    "line": 2509
+  },
+  "eq:variance-decomp-1": {
+    "label": "eq:variance-decomp-1",
+    "type": "eq",
+    "number": "83",
+    "page": 45,
+    "title": "Lower bound",
+    "file": "main.tex",
+    "line": 2518
+  },
+  "lem:rounding-error-estimated": {
+    "label": "lem:rounding-error-estimated",
+    "type": "lem",
+    "number": "E.5",
+    "page": 45,
+    "title": "",
+    "file": "main.tex",
+    "line": 2537
+  },
+  "eq:integer-variance-estimator": {
+    "label": "eq:integer-variance-estimator",
+    "type": "eq",
+    "number": "84",
+    "page": 47,
+    "title": "Achievability",
+    "file": "main.tex",
+    "line": 2617
+  },
+  "eq:variance-quadratic-rounded": {
+    "label": "eq:variance-quadratic-rounded",
+    "type": "eq",
+    "number": "85",
+    "page": 47,
+    "title": "Variance formula",
+    "file": "main.tex",
+    "line": 2635
+  },
+  "lem:minimax-donsker": {
+    "label": "lem:minimax-donsker",
+    "type": "lem",
+    "number": "E.6",
+    "page": 48,
+    "title": "Minimax balancing weights for Donsker classes",
+    "file": "main.tex",
+    "line": 2690
+  },
+  "prop:matching-efficiency": {
+    "label": "prop:matching-efficiency",
+    "type": "prop",
+    "number": "E.7",
+    "page": 51,
+    "title": "",
+    "file": "main.tex",
+    "line": 2784
+  },
+  "app:regression-orthogonality": {
+    "label": "app:regression-orthogonality",
+    "type": "app",
+    "number": "F",
+    "page": 51,
+    "title": "Regression for Orthogonality",
+    "file": "main.tex",
+    "line": 2817
+  }
+}

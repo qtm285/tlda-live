@@ -2,7 +2,7 @@
   "documents": {
     "spinoff3": {
       "title": "spinoff3",
-      "pages": 29,
+      "pages": 0,
       "format": "svg"
     },
     "qtm285": {
@@ -19,6 +19,16 @@
       "title": "Markdown Demo",
       "pages": 1,
       "format": "markdown"
+    },
+    "bregman": {
+      "title": "bregman",
+      "pages": 79,
+      "format": "svg"
+    },
+    "balancing-act": {
+      "title": "balancing-act",
+      "pages": 53,
+      "format": "svg"
     }
   }
 }

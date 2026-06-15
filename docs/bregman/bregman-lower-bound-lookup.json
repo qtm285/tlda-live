@@ -2,7 +2,7 @@
   "meta": {
     "version": 2,
     "texFile": "bregman-lower-bound.tex",
-    "generated": "2026-06-14T22:52:25.939Z",
+    "generated": "2026-06-15T01:01:01.478Z",
     "totalLines": 5258,
     "inputFiles": [
       "bregman-macros.tex",

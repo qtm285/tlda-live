@@ -1,6 +1,6 @@
 {
   "_source": "/Users/skip/work/tlda/server/projects/bregman/source/bregman-lower-bound.tex",
-  "_extracted": "2026-06-14T22:52:24.580Z",
+  "_extracted": "2026-06-15T01:00:59.049Z",
   "macros": {
     "\\customlabel": "%\n  \\phantomsection\\begingroup\\def\\@currentlabel{#2}\\label{#1}\\endgroup",
     "\\P": "{\\operatorname{P}}",
